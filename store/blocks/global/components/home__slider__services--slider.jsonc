@@ -1,0 +1,129 @@
+{
+  "slider-layout#service": {
+    "title": "Slider home images full",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home",
+      "flex-layout.row#Others__services__one--slider-home"
+    ]
+  },
+
+  "rich-text#title_service": {
+    "title": "Title service ",
+    "props": {
+      "text": "Heading",
+      "font": "t-heading-5"
+    }
+  },
+  "rich-text#description": {
+    "title": "Description service",
+    "props": {
+      "text": "Builder platform is made by, builder platform is made by..."
+    }
+  },
+  "image#prize":{
+    "title": "Service first",
+    "props": {
+      "src": "assets/img/ecommercesAward.png",
+      "maxHeight": 50
+    }
+  },
+  "image#OthersServices_1":{
+    "title": "Service first",
+    "props": {
+      "src": "assets/img/OthersServices.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 324,
+      "height": 187
+    }
+  },
+  "flex-layout.row#Others__services__one--slider-home":{
+    "title":"Slider row test one",
+    "children":[
+      "flex-layout.col#OthersServices_1-home",
+      "flex-layout.col#OthersServices_1-home",
+      "flex-layout.col#OthersServices_1-home"
+    ]
+  },
+  "flex-layout.col#OthersServices_1-home":{
+    "title":"Slider col test one",
+    "children":[
+      "image#OthersServices_1",
+      "flex-layout.row#inside__data__card",
+      "flex-layout.row#button__card__container"
+    ],
+    "props":{
+      "width": "33%",
+      "blockClass":[
+        "card_other_service--home"
+      ]
+    }
+  },
+  "flex-layout.row#inside__data__card":{
+    "title": "inside data card",
+    "children":[
+      "flex-layout.col#inside__info__card",
+      "flex-layout.col#inside__picture__card"
+    ],
+    "props":{}
+  },
+  "flex-layout.col#inside__info__card":{
+    "title": "inside info card",
+    "children":[
+      "rich-text#title_service",
+      "rich-text#description"
+    ],
+    "props":{}
+  },
+  "flex-layout.col#inside__picture__card":{
+    "title": "inside picture card",
+    "children":[
+      "image#prize"
+    ],
+    "props":{}
+  },
+  "flex-layout.row#button__card__container":{
+    "title": "button card container",
+    "children":[
+      "flex-layout.col#button__card__service"
+    ],
+    "props":{}
+  },
+  "flex-layout.col#button__card__service":{
+    "title": "button card service",
+    "children":[
+      "flex-layout.row#product"
+    ],
+    "props":{}
+  },
+  "rich-text#button__cart":{
+    "title": "button card price",
+    "props":{
+      "text": "button",
+      "font":"t-heading-5"
+    }
+  },
+  "flex-layout.row#product": {
+    "children": [
+      "rich-text#button__cart"
+    ]
+  }
+
+}

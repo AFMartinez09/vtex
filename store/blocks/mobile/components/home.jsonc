@@ -1,0 +1,17 @@
+{
+  "flex-layout.row#home__screen__mobile":{
+    "title": "Mobile row with text",
+    "children": [
+      "rich-text#mobile__section--1"
+    ]
+  },
+  "rich-text#mobile__section--1":{
+    "title": "Text Favourites at mobile",
+    "props": {
+      "text": "Favoritos en Mobile",
+      "font": "'t-heading-2",
+      "textAligment": "CENTER",
+      "textPosition": "CENTER"
+    }
+  }
+}

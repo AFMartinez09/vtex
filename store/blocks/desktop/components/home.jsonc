@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__screen__desktop":{
+    "title": "Desktop row with text",
+    "children": [
+      "image#main__banner--home"
+    ],
+    "props":{
+      "href": "#"
+    }
+  },
+  "image#main__banner--home":{
+    "title": "smartwatch up",
+    "props":{
+      "src": "assets/img/MainBanner.png"    }
+  }
+}

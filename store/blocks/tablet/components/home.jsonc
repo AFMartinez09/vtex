@@ -1,0 +1,16 @@
+{
+  "flex-layout.row#home__screen__tablet":{
+    "title": "Tablet row with text",
+    "children": [
+      "image#main__banner__tablet--home"
+    ],
+    "props":{
+      "href": "#"
+    }
+  },
+  "image#main__banner__tablet--home":{
+    "title": "smartwatch up",
+    "props":{
+      "src": "assets/img/MainBanner.png"    }
+  }
+}
