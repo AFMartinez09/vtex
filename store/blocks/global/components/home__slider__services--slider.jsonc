@@ -127,3 +127,85 @@
   }
 
 }
+// {
+//   "flex-layout.row#container__services--slider": {
+//     "title": "container services",
+//     "children": [
+
+//     ],
+//     "props":{
+//     }
+//   },
+//   "slider-layout#sliders__services--slider": {
+//     "title": "sliders services",
+//     "children": [
+
+//     ],
+//     "props":{
+//     }
+//   },
+ 
+//   "image#service__picture": {
+//     "title": " service picture",
+//     "children": [
+//     ],
+//     "props": {
+//       "src": "assets/img/OthersServices.png",
+//       "blockClass": [
+//         "imageCard"
+//       ],
+//       "width": 324,
+//       "height": 187
+//     }
+//   },
+//   "image#prize": {
+//     "title": "service prize",
+//     "props":{
+//       "src": "assets/img/ecommercesAward.png",
+//       "height": 50
+//     }
+//   },
+//   "rich-text#title__service__card": {
+//     "title": "title service card",
+//     "props":{
+//       "text": "Heading",
+//       "font": "t-heading-5",
+//       "blockClass":[
+//         "title__service__card",
+//         "service__card"
+//       ]
+//     }
+//   },
+//   "rich-text#description__service__card": {
+//     "title": " description service card",
+//     "props":{
+//       "text": "Builder platform is made by, builder platform is made by..."
+//     }
+//   },
+//   "rich-text#button__service": {
+//     "title": "button service",
+//     "props":{
+//       "text":"[Ver precio](https:)",
+//       "blockClass":[
+//         "button__service__slide"
+//       ]
+//     }
+//   },
+//   "flex-layout.row#slider__picture__services--slider": {
+//     "title": "picture services",
+//     "children": [
+//       "image#service__picture"
+//     ],
+//     "props":{
+//     }
+//   }, 
+//   "flex.layout.row#button__container--slider": {
+//     "title": "button container slider",
+//     "children": [
+//       "rich-text#button__service"
+//     ],
+//     "props":{
+//       "blockClass": "service__button"
+//     }
+//   }
+// }
