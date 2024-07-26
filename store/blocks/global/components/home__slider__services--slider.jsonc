@@ -1,17 +1,18 @@
-{
+ {
   "slider-layout#service": {
     "title": "Slider home images full",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
+        "desktop": 3,
+        "tablet": 3,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel__service"
     },
     "children": [
+      "flex-layout.row#Others__services__one--slider-home",
       "flex-layout.row#Others__services__one--slider-home",
       "flex-layout.row#Others__services__one--slider-home",
       "flex-layout.row#Others__services__one--slider-home",
@@ -22,7 +23,6 @@
       "flex-layout.row#Others__services__one--slider-home"
     ]
   },
-
   "rich-text#title_service": {
     "title": "Title service ",
     "props": {
@@ -48,32 +48,36 @@
     "props": {
       "src": "assets/img/OthersServices.png",
       "blockClass": [
-        "imageCard"
+        "imageCard__service"
       ],
       "width": 324,
-      "height": 187
+      "height": 186.62,
+      "gap": 8
     }
   },
   "flex-layout.row#Others__services__one--slider-home":{
     "title":"Slider row test one",
     "children":[
-      "flex-layout.col#OthersServices_1-home",
-      "flex-layout.col#OthersServices_1-home",
       "flex-layout.col#OthersServices_1-home"
-    ]
+    ],
+    "props":{
+      "blockClass":[
+        "card__container__service--home"
+      ]
+    }
   },
   "flex-layout.col#OthersServices_1-home":{
     "title":"Slider col test one",
     "children":[
       "image#OthersServices_1",
       "flex-layout.row#inside__data__card",
-      "flex-layout.row#button__card__container"
+      "flex-layout.row#button__container--slider"
     ],
     "props":{
-      "width": "33%",
       "blockClass":[
-        "card_other_service--home"
-      ]
+        "card__service--home"
+      ],
+      "width": 440
     }
   },
   "flex-layout.row#inside__data__card":{
@@ -82,7 +86,11 @@
       "flex-layout.col#inside__info__card",
       "flex-layout.col#inside__picture__card"
     ],
-    "props":{}
+    "props":{
+      "blockClass":[
+        "description__service__card"
+      ]
+    }
   },
   "flex-layout.col#inside__info__card":{
     "title": "inside info card",
@@ -90,26 +98,26 @@
       "rich-text#title_service",
       "rich-text#description"
     ],
-    "props":{}
+    "props":{
+      "width": "75%"
+    }
   },
   "flex-layout.col#inside__picture__card":{
     "title": "inside picture card",
     "children":[
       "image#prize"
     ],
-    "props":{}
-  },
-  "flex-layout.row#button__card__container":{
-    "title": "button card container",
-    "children":[
-      "flex-layout.col#button__card__service"
-    ],
-    "props":{}
+    "props":{
+      "blockClass":[
+        "picture__service"
+      ],
+      "width": "25%"
+    }
   },
   "flex-layout.col#button__card__service":{
     "title": "button card service",
     "children":[
-      "flex-layout.row#product"
+      "flex-layout.row#service"
     ],
     "props":{}
   },
@@ -120,92 +128,24 @@
       "font":"t-heading-5"
     }
   },
-  "flex-layout.row#product": {
+  "flex-layout.row#service": {
     "children": [
       "rich-text#button__cart"
     ]
+  },
+  "flex-layout.row#button__container--slider": {
+    "title": "button container slider",
+    "children": [
+      "rich-text#button__service"
+      ]
+  },
+  "rich-text#button__service": {
+    "title": "button service",
+    "props": {
+      "text": "[Ver precio](https:)",
+      "blockClass": [
+        "button__service__slide"
+      ]
+    }
   }
-
 }
-// {
-//   "flex-layout.row#container__services--slider": {
-//     "title": "container services",
-//     "children": [
-
-//     ],
-//     "props":{
-//     }
-//   },
-//   "slider-layout#sliders__services--slider": {
-//     "title": "sliders services",
-//     "children": [
-
-//     ],
-//     "props":{
-//     }
-//   },
- 
-//   "image#service__picture": {
-//     "title": " service picture",
-//     "children": [
-//     ],
-//     "props": {
-//       "src": "assets/img/OthersServices.png",
-//       "blockClass": [
-//         "imageCard"
-//       ],
-//       "width": 324,
-//       "height": 187
-//     }
-//   },
-//   "image#prize": {
-//     "title": "service prize",
-//     "props":{
-//       "src": "assets/img/ecommercesAward.png",
-//       "height": 50
-//     }
-//   },
-//   "rich-text#title__service__card": {
-//     "title": "title service card",
-//     "props":{
-//       "text": "Heading",
-//       "font": "t-heading-5",
-//       "blockClass":[
-//         "title__service__card",
-//         "service__card"
-//       ]
-//     }
-//   },
-//   "rich-text#description__service__card": {
-//     "title": " description service card",
-//     "props":{
-//       "text": "Builder platform is made by, builder platform is made by..."
-//     }
-//   },
-//   "rich-text#button__service": {
-//     "title": "button service",
-//     "props":{
-//       "text":"[Ver precio](https:)",
-//       "blockClass":[
-//         "button__service__slide"
-//       ]
-//     }
-//   },
-//   "flex-layout.row#slider__picture__services--slider": {
-//     "title": "picture services",
-//     "children": [
-//       "image#service__picture"
-//     ],
-//     "props":{
-//     }
-//   }, 
-//   "flex.layout.row#button__container--slider": {
-//     "title": "button container slider",
-//     "children": [
-//       "rich-text#button__service"
-//     ],
-//     "props":{
-//       "blockClass": "service__button"
-//     }
-//   }
-// }

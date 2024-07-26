@@ -1,118 +1,139 @@
 {
-  "slider-layout#sales_slider": {
+  "slider-layout#products": {
     "title": "Slider home images full",
     "props": {
       "itemsPerPage": {
-        "desktop": 1,
-        "tablet": 1,
+        "desktop": 5,
+        "tablet": 5,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel"
+      "blockClass": "carousel__products"
     },
     "children": [
-      "flex-layout.row#sale__products__one--slider-home",
-      "flex-layout.row#sale__products__one--slider-home",
-      "flex-layout.row#sale__products__one--slider-home"
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home",
+      "flex-layout.row#Others__products__one--slider-home"
     ]
   },
-  "image#sales_products_1":{
-    "title": "Sale product first",
+  "rich-text#new__price": {
+    "title": "New price product",
     "props": {
-      "src": "assets/img/InfoCardSales.png",
-      "maxHeight": 324
+      "text": "$ 636.900",
+      "font": "t-heading-3"
     }
   },
-  "image#sales_products_2":{
-    "title": "Sale product second",
+  "rich-text#old__price": {
+    "title": "Old price product",
     "props": {
-      "src": "assets/img/InfoCardSales.png",
-      "maxHeight": 324
+      "text": "$ 636.900",
+      "font": "t-heading-3"
     }
   },
-  "image#sales_products_3":{
-    "title": "Sale product third",
+  "rich-text#description__product": {
+    "title": "Description products",
     "props": {
-      "src": "assets/img/InfoCardSales.png",
-      "maxHeight": 324
+      "text": "Descripcion del producto en hasta tres lineas de texto explicativo",
+      "width": 178,
+      "height": 140
     }
   },
-  "image#sales_products_4":{
-    "title": "Sale product fourth",
+  "image#products_1":{
+    "title": "Service first",
     "props": {
-      "src": "assets/img/InfoCardSales.png",
-      "maxHeight": 324
+      "src": "assets/img/IMac.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 178,
+      "height": 140
     }
   },
-  "image#sales_products_5":{
-    "title": "Sale product fifth",
+  "image#tag":{
+    "title": "Service first",
     "props": {
-      "src": "assets/img/InfoCardSales.png",
-      "maxHeight": 324
+      "src": "assets/img/Tags.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 212,
+      "height": 32
     }
   },
-  "flex-layout.row#sale__products__one--slider-home":{
+  "image#send__free":{
+    "title": "Send free",
+    "props": {
+      "src": "assets/img/sendFree.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 90,
+      "height": 20
+    }
+  },
+  "flex-layout.row#Others__products__one--slider-home":{
     "title":"Slider row test one",
     "children":[
-      "flex-layout.col#sales_products_1-home",
-      "flex-layout.col#sales_products_2-home",
-      "flex-layout.col#sales_products_3-home"
+      "flex-layout.col#products_1-home"
     ]
   },
-  "flex-layout.col#sales_products_1-home":{
-    "title":"Slider col test first",
+  "flex-layout.col#products_1-home":{
+    "title":"Slider col test one",
     "children":[
-      "image#sales_products_1"
+      "image#tag",
+      "image#products_1",
+      "flex-layout.row#inside__data__card__product",
+      "flex-layout.row#button__container__product--slider"
     ],
     "props":{
-      "width": "33%",
+      "gap": 12,
+      "width": 212,
       "blockClass":[
         "card_other_service--home"
       ]
     }
   },
-  "flex-layout.col#sales_products_2-home":{
-    "title":"Slider col test second",
+  "flex-layout.row#inside__data__card__product":{
+    "title": "inside data card",
     "children":[
-      "image#sales_products_2"
+      "flex-layout.col#inside__info__card__product"
     ],
     "props":{
-      "blockClass":[
-        "card_other_service--home"
-      ]
+      "width": 178
     }
   },
-  "flex-layout.col#sales_products_3-home":{
-    "title":"Slider col test two",
+  "flex-layout.col#inside__info__card__product":{
+    "title": "inside info card",
     "children":[
-      "image#sales_products_3"    
+      "rich-text#description__product",
+      "rich-text#old__price",
+      "rich-text#new__price",
+      "image#send__free"
     ],
     "props":{
-      "blockClass":[
-        "card_other_service--home"
-      ]
+      "width": 178,
+      "height": 140
     }
   },
-  "flex-layout.col#sales_products_4-home":{
-    "title":"Slider col test two",
-    "children":[
-      "image#sales_products_4"    
-    ],
-    "props":{
-      "blockClass":[
-        "card_other_service--home"
+  "flex-layout.row#button__container__product--slider": {
+    "title": "button container slider",
+    "children": [
+      "rich-text#button__product"
       ]
-    }
   },
-  "flex-layout.col#sales_products_5-home":{
-    "title":"Slider col test two",
-    "children":[
-      "image#sales_products_5"    
-    ],
-    "props":{
-      "blockClass":[
-        "card_other_service--home"
+  "rich-text#button__product": {
+    "title": "button products",
+    "props": {
+      "text": "[Comprar](https:)",
+      "blockClass": [
+        "button__product__slide"
       ]
     }
   }

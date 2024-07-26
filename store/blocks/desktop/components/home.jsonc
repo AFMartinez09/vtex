@@ -11,6 +11,8 @@
   "image#main__banner--home":{
     "title": "smartwatch up",
     "props":{
-      "src": "assets/img/MainBanner.png"    }
+      "src": "assets/img/MainBanner.png",
+      "url": "#"    
+    }
   }
 }

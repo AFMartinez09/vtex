@@ -4,16 +4,15 @@
       "responsive-layout.desktop#screen__desktop",
       "responsive-layout.phone#screen__phone",
       "responsive-layout.tablet#screen__tablet",
-      "responsive-layout.mobile#screen__mobile",
+      // "responsive-layout.mobile#screen__mobile",
       "rich-text#text__subtitle_products",
       "slider-layout#service",
       "rich-text#text__subtitle_products",
-      "slider-layout#sales_slider",
+      "slider-layout#products",      
       "rich-text#text__subtitle_products",
       "slider-layout#service",
       "rich-text#text__subtitle_products",
-      "slider-layout#sales_slider"
-
+      "slider-layout#products"
     ]
   }
 

@@ -6,5 +6,42 @@
   line-height: 16.8px;
   color: #1D2734;
   left: 72px;
-  gap: 1000px;
+}
+
+.link--button__service__slide{
+  text-decoration: none;
+  border: 0.86px solid #1D2734;
+  border-radius: 40px;
+  padding: 8px;
+  background-color: #1D2734;
+  color: #ffffff;
+  size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  align-items: center;
+}
+
+.wrapper--button__service__slide{
+  width: 134px;
+  height: 100px;
+  align-items: center;
+}
+
+.wrapper--button__product__slide{
+  width: 134px;
+  height: 100px;
+  align-items: center;
+}
+
+.link--button__product__slide{
+  text-decoration: none;
+  border: 0.86px solid #1D2734;
+  border-radius: 40px;
+  padding: 8px;
+  background-color: #1D2734;
+  color: #ffffff;
+  size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  align-items: center;
 }

@@ -1,8 +1,18 @@
 .paginationDot--isActive{
-  background-color: blue;
-
+  background-color: #1D2734;
 }
 
-.imageElement--imageCard{
+.slideChildrenContainer--carousel__service{
+  width: 324px;
+  height: 336.46px;
+  border-radius: 12px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 13.82px;
+  margin-bottom: 20px;
+}
+
+.flexColChild--card__service--home  {
   border-radius: 13.82px, 13.82px, 0px, 0px;
 }

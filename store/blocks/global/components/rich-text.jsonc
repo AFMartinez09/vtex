@@ -5,7 +5,8 @@
     "font": "t-heading5",
     "textAlignment": "LEFT",
     "textPosition": "LEFT",
-    "blockClass": "subtitle_products"
+    "blockClass": "subtitle_products",
+    "font-weight": "bold"
   }
  } 
 }
