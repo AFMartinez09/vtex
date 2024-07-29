@@ -12,7 +12,11 @@
     "title": "smartwatch up",
     "props":{
       "src": "assets/img/MainBanner.png",
-      "url": "#"    
+      "href": "/",
+      "top": "168px",
+      "blockClass":[
+        "main__banner--home"
+      ]
     }
   }
 }

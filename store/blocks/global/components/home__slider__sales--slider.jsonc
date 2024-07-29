@@ -23,61 +23,6 @@
       "flex-layout.row#Others__products__one--slider-home"
     ]
   },
-  "rich-text#new__price": {
-    "title": "New price product",
-    "props": {
-      "text": "$ 636.900",
-      "font": "t-heading-3"
-    }
-  },
-  "rich-text#old__price": {
-    "title": "Old price product",
-    "props": {
-      "text": "$ 636.900",
-      "font": "t-heading-3"
-    }
-  },
-  "rich-text#description__product": {
-    "title": "Description products",
-    "props": {
-      "text": "Descripcion del producto en hasta tres lineas de texto explicativo",
-      "width": 178,
-      "height": 140
-    }
-  },
-  "image#products_1":{
-    "title": "Service first",
-    "props": {
-      "src": "assets/img/IMac.png",
-      "blockClass": [
-        "imageCard"
-      ],
-      "width": 178,
-      "height": 140
-    }
-  },
-  "image#tag":{
-    "title": "Service first",
-    "props": {
-      "src": "assets/img/Tags.png",
-      "blockClass": [
-        "imageCard"
-      ],
-      "width": 212,
-      "height": 32
-    }
-  },
-  "image#send__free":{
-    "title": "Send free",
-    "props": {
-      "src": "assets/img/sendFree.png",
-      "blockClass": [
-        "imageCard"
-      ],
-      "width": 90,
-      "height": 20
-    }
-  },
   "flex-layout.row#Others__products__one--slider-home":{
     "title":"Slider row test one",
     "children":[
@@ -93,8 +38,8 @@
       "flex-layout.row#button__container__product--slider"
     ],
     "props":{
-      "gap": 12,
-      "width": 212,
+      "gap": "12px",
+      "width": "212px",
       "blockClass":[
         "card_other_service--home"
       ]
@@ -128,6 +73,31 @@
       "rich-text#button__product"
       ]
   },
+  "rich-text#new__price": {
+    "title": "New price product",
+    "props": {
+      "text": "$ 636.900",
+      "font": "t-heading-3",
+      "blockClass": "new__price__product"
+    }
+  },
+  "rich-text#old__price": {
+    "title": "Old price product",
+    "props": {
+      "text": "$ 636.900",
+      "font": "t-heading-3",
+      "blockClass": "old__price__product"
+    }
+  },
+  "rich-text#description__product": {
+    "title": "Description products",
+    "props": {
+      "text": "Descripcion del producto en hasta tres lineas de texto explicativo",
+      "width": 178,
+      "height": 140,
+      "blockClass": "description__product"
+    }
+  },
   "rich-text#button__product": {
     "title": "button products",
     "props": {
@@ -135,6 +105,39 @@
       "blockClass": [
         "button__product__slide"
       ]
+    }
+  },
+  "image#products_1":{
+    "title": "Service first",
+    "props": {
+      "src": "assets/img/IMac.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 178,
+      "height": 140
+    }
+  },
+  "image#tag":{
+    "title": "Service first",
+    "props": {
+      "src": "assets/img/Tags.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 212,
+      "height": 32
+    }
+  },
+  "image#send__free":{
+    "title": "Send free",
+    "props": {
+      "src": "assets/img/sendFree.png",
+      "blockClass": [
+        "imageCard"
+      ],
+      "width": 90,
+      "height": 20
     }
   }
 }

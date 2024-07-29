@@ -3,8 +3,6 @@
   "props":{
     "text": "An amazing product.",
     "font": "t-heading5",
-    "textAlignment": "LEFT",
-    "textPosition": "LEFT",
     "blockClass": "subtitle_products",
     "font-weight": "bold"
   }

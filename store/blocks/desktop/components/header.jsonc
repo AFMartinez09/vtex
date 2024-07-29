@@ -1,10 +1,26 @@
 {
+  "flex-layout.row#header__container__desktop":{
+    "title": "header container desktop",
+    "children": [
+      "sticky-layout#desktop"
+    ],
+    "props":{
+      "blockClass": [
+        "container__categories__icons"
+      ],
+      "background": "#FFFFFF",
+      "top": "56px"
+    }
+  },
   "sticky-layout#desktop": {
     "props": {
-      "blockClass": "sticky-header"
+      "blockClass": [
+        "categories__header__desktop__"
+      ]
     },
     "children": [
-      "flex-layout.row#desktop"
+      "flex-layout.row#desktop",
+      "flex-layout.row#btn__icons__desktop"
     ]
   },
   "flex-layout.row#desktop": {
@@ -13,7 +29,10 @@
       "verticalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "fullWidth": true
+      "fullWidth": true,
+      "blockClass": [
+        "first__header__desktop"
+      ]
     },
     "children": [
       "flex-layout.col#logo-desktop",
@@ -29,5 +48,228 @@
       "verticalAlign": "middle"
     },
     "children": ["logo"]
+  },
+  "flex-layout.row#banner__categories__desktop": {
+    "title": "banner__icons__desktop",
+    "children":[
+      "flex-layout.row#btn__icons__desktop"
+    ],
+    "props":{
+      "gap": "4px",
+      "blockClass": "banner__categories__desktop"
+    }
+  },
+  "flex-layout.row#btn__icons__desktop": {
+    "title": "banner__icons__desktop",
+    "children":[
+      "image#category__Food",
+      "image#category__Fitness",
+      "image#category__Snowflake",
+      "image#category__Poolday",
+      "image#category__Hotels",
+      "image#category__Houses",
+      "image#category__Hotels",
+      "image#category__Nature",
+      "image#category__Closet",
+      "image#category__Beach",
+      "image#category__Alpinism",
+      "image#category__Delivery",
+      "image#category__Beers"
+    ],
+    "props":{
+      "blockClass": "set__icons__desktop"
+    }
+  },
+  "image#category__Food": {
+    "title": "Food icon desktop",
+    "props":{
+      "src": "assets/img/header/Food.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Food"
+    }
+  },
+  "image#category__Fitness": {
+    "title": "Fitness icon desktop",
+    "props":{
+      "src": "assets/img/header/Fitness.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Fitness"
+    }
+  },
+  "image#category__Snowflake": {
+    "title": "Snowflake icon desktop",
+    "props":{
+      "src": "assets/img/header/Snowflake.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "En el Ártico"
+    }
+  },
+  "image#category__Poolday": {
+    "title": "Poolday icon desktop",
+    "props":{
+      "src": "assets/img/header/Poolday.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Poolday"
+    }
+  },
+  "image#category__Hotels": {
+    "title": "Hotels icon desktop",
+    "props":{
+      "src": "assets/img/header/Hotels.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Hoteles"
+    }
+  },
+  "image#category__Houses": {
+    "title": "Houses icon desktop",
+    "props":{
+      "src": "assets/img/header/Houses.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Casas"
+    }
+  },
+  "image#category__Nature": {
+    "title": "Nature icon desktop",
+    "props":{
+      "src": "assets/img/header/Nature.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Naturales"
+    }
+  },
+  "image#category__Closet": {
+    "title": "Closet icon desktop",
+    "props":{
+      "src": "assets/img/header/Closet.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Closet"
+    }
+  },
+  "image#category__Beach": {
+    "title": "Beach icon desktop",
+    "props":{
+      "src": "assets/img/header/Beach.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Playas"
+    }
+  },
+  "image#category__Alpinism": {
+    "title": "Alpinism icon desktop",
+    "props":{
+      "src": "assets/img/header/Alpinism.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Alpinismo"
+    }
+  },
+  "image#category__Delivery": {
+    "title": "Delivery icon desktop",
+    "props":{
+      "src": "assets/img/header/Delivery.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Delivery"
+    }
+  },
+  "image#category__Beers": {
+    "title": "Beers icon desktop",
+    "props":{
+      "src": "assets/img/header/Beers.png",
+      "link": "/",
+      "blockClass": [
+        "icon__categories__desktop"
+      ],
+      "max-width": "70px",
+      "height": "47px",
+      "border": "0px 0px 1px 0px",
+      "gap": "4px",
+      "background-color": "#FFFFFF",
+      "alt": "Cervezas"
+    }
   }
 }

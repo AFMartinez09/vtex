@@ -3,13 +3,16 @@
     "title": "Slider home images full",
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 2,
         "tablet": 3,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel__service"
+      "blockClass": "carousel__service",
+      "centerMode": "to-the left",
+      "centerModeSlidesGap": "24px",
+      "gap": 24
     },
     "children": [
       "flex-layout.row#Others__services__one--slider-home",
@@ -23,38 +26,6 @@
       "flex-layout.row#Others__services__one--slider-home"
     ]
   },
-  "rich-text#title_service": {
-    "title": "Title service ",
-    "props": {
-      "text": "Heading",
-      "font": "t-heading-5"
-    }
-  },
-  "rich-text#description": {
-    "title": "Description service",
-    "props": {
-      "text": "Builder platform is made by, builder platform is made by..."
-    }
-  },
-  "image#prize":{
-    "title": "Service first",
-    "props": {
-      "src": "assets/img/ecommercesAward.png",
-      "maxHeight": 50
-    }
-  },
-  "image#OthersServices_1":{
-    "title": "Service first",
-    "props": {
-      "src": "assets/img/OthersServices.png",
-      "blockClass": [
-        "imageCard__service"
-      ],
-      "width": 324,
-      "height": 186.62,
-      "gap": 8
-    }
-  },
   "flex-layout.row#Others__services__one--slider-home":{
     "title":"Slider row test one",
     "children":[
@@ -63,21 +34,8 @@
     "props":{
       "blockClass":[
         "card__container__service--home"
-      ]
-    }
-  },
-  "flex-layout.col#OthersServices_1-home":{
-    "title":"Slider col test one",
-    "children":[
-      "image#OthersServices_1",
-      "flex-layout.row#inside__data__card",
-      "flex-layout.row#button__container--slider"
-    ],
-    "props":{
-      "blockClass":[
-        "card__service--home"
       ],
-      "width": 440
+      "gap": "24px"
     }
   },
   "flex-layout.row#inside__data__card":{
@@ -89,6 +47,25 @@
     "props":{
       "blockClass":[
         "description__service__card"
+      ]
+    }
+  },
+  "flex-layout.row#button__container--slider": {
+    "title": "button container slider",
+    "children": [
+      "rich-text#button__service"
+      ]
+  },
+  "flex-layout.col#OthersServices_1-home":{
+    "title":"Slider col test one",
+    "children":[
+      "image#OthersServices_1",
+      "flex-layout.row#inside__data__card",
+      "flex-layout.row#button__container--slider"
+    ],
+    "props":{
+      "blockClass":[
+        "card__service--home"
       ]
     }
   },
@@ -120,6 +97,51 @@
       "flex-layout.row#service"
     ],
     "props":{}
+  },  "flex-layout.row#service": {
+    "children": [
+      "rich-text#button__cart"
+    ],
+    "props":{
+      "blockClass": [
+        "title__card__service"
+      ]
+    }
+  },
+  "rich-text#title_service": {
+    "title": "Title card service ",
+    "props": {
+      "text": "Heading",
+      "font": "t-heading-5",
+      "blockClass": "title__service__card"
+    }
+  },
+  "rich-text#description": {
+    "title": "Description service",
+    "props": {
+      "text": "Builder platform is made by, builder platform is made by...",
+      "blockClass": [
+        "description__info__card"
+      ]
+    }
+  },
+  "image#prize":{
+    "title": "Service first",
+    "props": {
+      "src": "assets/img/ecommercesAward.png",
+      "maxHeight": "50px",
+      "blockClass": "image__prize__service"
+    }
+  },
+  "image#OthersServices_1":{
+    "title": "Service first",
+    "props": {
+      "src": "assets/img/OthersServices.png",
+      "blockClass": [
+        "imageCard__service"
+      ],
+      "maxWidth": "100%"
+
+    }
   },
   "rich-text#button__cart":{
     "title": "button card price",
@@ -127,17 +149,6 @@
       "text": "button",
       "font":"t-heading-5"
     }
-  },
-  "flex-layout.row#service": {
-    "children": [
-      "rich-text#button__cart"
-    ]
-  },
-  "flex-layout.row#button__container--slider": {
-    "title": "button container slider",
-    "children": [
-      "rich-text#button__service"
-      ]
   },
   "rich-text#button__service": {
     "title": "button service",
