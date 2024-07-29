@@ -70,8 +70,12 @@
   "flex-layout.row#button__container__product--slider": {
     "title": "button container slider",
     "children": [
-      "rich-text#button__product"
-      ]
+      "image#sales__btn"
+      ],
+      "props": {
+        "width": "212px",
+        "height": "48px"
+      }
   },
   "rich-text#new__price": {
     "title": "New price product",
@@ -96,15 +100,6 @@
       "width": 178,
       "height": 140,
       "blockClass": "description__product"
-    }
-  },
-  "rich-text#button__product": {
-    "title": "button products",
-    "props": {
-      "text": "[Comprar](https:)",
-      "blockClass": [
-        "button__product__slide"
-      ]
     }
   },
   "image#products_1":{
@@ -138,6 +133,19 @@
       ],
       "width": 90,
       "height": 20
+    }
+  },
+  "image#sales__btn": {
+    "title": "Sales btn",
+    "props":{
+      "src": "assets/img/ButtonComprar.png",
+      "alt": "ver precio",
+      "blockClass": [
+        "button__product__slide"
+      ],
+      "link":{
+        "url": "https://"
+      }
     }
   }
 }

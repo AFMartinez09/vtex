@@ -8,7 +8,7 @@
   color: #1D2734;
   left: 72px;
 }
-
+/* --------------- button service --------------- */
 .link--button__service__slide{
   text-decoration: none;
   border: 0.86px solid #1D2734;
@@ -21,21 +21,28 @@
   line-height: 15px;
 }
 
+.container--button__service__slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .wrapper--button__service__slide{
   max-width: 324px;
   max-height: 43px;
   align-self: center;
 }
 
+/* --------------- button product --------------- */
 .wrapper--button__product__slide{
-  max-width: 212px;
-  max-height: 48px;
+  width: 212px;
+  height: 48px;
   align-items: center;
 }
 
 .paragraph--button__product__slide{
-  max-width: 212px;
-  max-height: 48px;
+  width: 212px;
+  height: 48px;
 }
 
 .link--button__product__slide{
@@ -51,15 +58,14 @@
   padding: 10px;
 }
 
-.paragraph--description__info__card {
-  max-width: 247.97px;
-  max-height: 30px;
-  padding: 0px 0px 0px 13.82px;
-  font-size: 12px;
-  font-weight: 300;
-  line-height: 14.52px;
-  color: #1D2734;
+.container--button__product__slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
+
+/* --------------- title service --------------- */
 
 .container--title__service__card {
   max-width: 247.97px;
@@ -90,6 +96,13 @@
   color: #1D2734;
 }
 
+
+/* --------------- old price --------------- */
+
+.wrapper--old__price__product{
+  max-width: 100%;
+}
+
 .paragraph--old__price__product{
   font-weight: 400;
   font-size: 14px;
@@ -100,10 +113,8 @@
   text-decoration: line-through;
   margin: 0px;
 }
+/* --------------- new price --------------- */
 
-.wrapper--old__price__product{
-  max-width: 100%;
-}
 .paragraph--new__price__product{
   max-width: 212px;
   max-height: 23px;
@@ -119,6 +130,19 @@
   max-width: 100%;
 }
 
+/* --------------- description service --------------- */
+
+.paragraph--description__info__card {
+  max-width: 247.97px;
+  max-height: 30px;
+  padding: 0px 0px 0px 13.82px;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.52px;
+  color: #1D2734;
+}
+
+/* --------------- description product --------------- */
 .paragraph--description__product{
   max-height: 51px;
   max-width: 212px;
@@ -129,3 +153,6 @@
   margin: 0px;
   gap: 10px;
 }
+
+
+

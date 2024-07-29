@@ -18,6 +18,7 @@
   width: 324px;
   height: 186.62px;
   border-radius: 10.71px 10.71px 0px 0px;
+  left: 40px;
 }
 
 .flexRowContent--set__icons__desktop {
@@ -31,7 +32,12 @@
 .flexRow--first__header__desktop{
   background-color: #FFFFFF;
 }
-.flexRow--card__container__service--home{
-  display: flex;
-  gap: 24px;
+
+.flexCol--card__service--home{
+  border-radius: 12px;
+  background-color: #ffffff;
+  align-items: center;
+  justify-content: center;
+  max-width: 324px;
+  height: 336.46px;
 }

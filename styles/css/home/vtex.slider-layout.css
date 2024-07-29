@@ -2,7 +2,7 @@
   background-color: #1D2734;
 }
 
-.slideChildrenContainer--carousel__service{
+/* .slideChildrenContainer--carousel__service{
   border-radius: 12px;
   background-color: #ffffff;
   align-items: center;
@@ -10,7 +10,7 @@
   max-width: 324px;
   height: 336.46px;
   margin: 24px;
-}
+} */
 .sliderLayoutContainer--carousel__products{
   max-width: 100%;
 }
@@ -23,13 +23,8 @@
 }
 
 .sliderLayoutContainer--carousel__service{
-  display: flex;
-  max-width: 1280px;
+  width: 1280px;
   height: 340px;
-  gap: 24px;
   left: 94px;
 }
 
-.sliderArrows--carousel__service{
-  margin: 2px;
-}

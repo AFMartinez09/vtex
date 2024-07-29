@@ -53,7 +53,7 @@
   "flex-layout.row#button__container--slider": {
     "title": "button container slider",
     "children": [
-      "rich-text#button__service"
+      "image#service__btn"
       ]
   },
   "flex-layout.col#OthersServices_1-home":{
@@ -150,13 +150,17 @@
       "font":"t-heading-5"
     }
   },
-  "rich-text#button__service": {
-    "title": "button service",
-    "props": {
-      "text": "[Ver precio](https:)",
+  "image#service__btn": {
+    "title": "Sales btn",
+    "props":{
+      "src": "assets/img/Btn_ver_precio.png",
+      "alt": "ver precio",
       "blockClass": [
         "button__service__slide"
-      ]
+      ],
+      "link":{
+        "url": "https://"
+      }
     }
   }
 }
