@@ -1,16 +1,43 @@
-.paginationDot--isActive{
-  background-color: #1D2734;
+.paginationDot {  
+  width: 16.96px !important;  
+  height: 16.96px !important;  
+  background-color: transparent;
+  position: relative;  
+  display: flex;  
+  align-items: center;  
+  justify-content: center;  
+  margin: 0 2px;
 }
 
-/* .slideChildrenContainer--carousel__service{
-  border-radius: 12px;
-  background-color: #ffffff;
-  align-items: center;
-  justify-content: center;
-  max-width: 324px;
-  height: 336.46px;
-  margin: 24px;
-} */
+.paginationDot::after {  
+  /* content allow us to use  in abosulte */
+  content: "";  
+  position: absolute;  
+  top: 50%;  
+  left: 0;  
+  width: 44px;  
+  height: 1.41px;  
+  background: repeating-linear-gradient(    
+    to right,    
+    #1d2734,    
+    #1d2734 12px,    
+    transparent 12px,    
+    transparent 24px  
+  );  
+  transform: translateX(-25%);
+}
+
+.paginationDot--isActive::before {  
+  content: "";  
+  position: absolute;  
+  right: calc(50% - 8.5px); 
+  top: calc(50% - 8.5px);  
+  width: 16.96px;  
+  height: 16.96px;      
+  background-color: #1d2734;  
+  border-radius: 50%;
+}
+
 .sliderLayoutContainer--carousel__products{
   max-width: 100%;
 }
@@ -25,6 +52,5 @@
 .sliderLayoutContainer--carousel__service{
   width: 1280px;
   height: 340px;
-  left: 94px;
 }
 
