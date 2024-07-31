@@ -1,9 +1,45 @@
 {
- "rich-text#text__subtitle_products": {
+ "rich-text#text__subtitle_products__1": {
   "props":{
     "text": "An amazing product.",
     "font": "t-heading5",
-    "blockClass": "subtitle_products",
+    "blockClass": [
+      "subtitle_products",
+      "subtitle__1"
+    ],
+    "font-weight": "bold"
+  }
+ },
+ "rich-text#text__subtitle_products__2": {
+  "props":{
+    "text": "An amazing product.",
+    "font": "t-heading5",
+    "blockClass": [
+      "subtitle_products",
+      "subtitle__2"
+    ],
+    "font-weight": "bold"
+  }
+ },
+ "rich-text#text__subtitle_products__3": {
+  "props":{
+    "text": "An amazing product.",
+    "font": "t-heading5",
+    "blockClass": [
+      "subtitle_products",
+      "subtitle__3"
+    ],
+    "font-weight": "bold"
+  }
+ },
+ "rich-text#text__subtitle_products__4": {
+  "props":{
+    "text": "An amazing product.",
+    "font": "t-heading5",
+    "blockClass": [
+      "subtitle_products",
+      "subtitle__4"
+    ],
     "font-weight": "bold"
   }
  } 
