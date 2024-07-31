@@ -56,7 +56,8 @@
     ],
     "props":{
       "gap": "4px",
-      "blockClass": "banner__categories__desktop"
+      "blockClass": "banner__categories__desktop",
+      "top": "168px"
     }
   },
   "flex-layout.row#btn__icons__desktop": {
