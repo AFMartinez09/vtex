@@ -3,7 +3,7 @@
     "title": "Slider home images full",
     "props": {
       "itemsPerPage": {
-        "desktop": 2,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },

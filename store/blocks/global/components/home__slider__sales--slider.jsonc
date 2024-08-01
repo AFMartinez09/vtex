@@ -1,151 +1,91 @@
 {
-  "slider-layout#products": {
-    "title": "Slider home images full",
+  "flex-layout.row#products__container__slider": {
+    "title": "product shelf container slider",
+    "props": {
+      "blockClass": "main__container__shelf"
+    },
+    "children": [
+      "list-context.product-list#list__products"
+    ]
+  },
+  "list-context.product-list#list__products": {
+    "title": "Lista de product shelf",
+    "blocks": [
+      "product-summary.shelf#products__sliders__home"
+    ],
+    "children": [
+      "slider-layout#home__slider2--products"
+    ],
+    "props": {
+      "blockClass": "context__product-list"
+    }
+  },
+  "product-summary.shelf#products__sliders__home": {
+    "title": "Tarjeta de producto",
+    "children": [
+      "flex-layout.col#items__descount__likes",
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "slider-layout#home__slider2--products": {
+    "title": "Slider de productos",
     "props": {
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 5,
         "phone": 1
       },
-      "infinite": true,
-      "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel__products"
-    },
-    "children": [
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home",
-      "flex-layout.row#Others__products__one--slider-home"
-    ]
-  },
-  "flex-layout.row#Others__products__one--slider-home":{
-    "title":"Slider row test one",
-    "children":[
-      "flex-layout.col#products_1-home"
-    ]
-  },
-  "flex-layout.col#products_1-home":{
-    "title":"Slider col test one",
-    "children":[
-      "image#tag",
-      "image#products_1",
-      "flex-layout.row#inside__data__card__product",
-      "flex-layout.row#button__container__product--slider"
-    ],
-    "props":{
-      "gap": "12px",
-      "width": "212px",
-      "blockClass":[
-        "card_other_service--home"
+      "blockClass": [
+        "home__slider2--products"
       ]
     }
   },
-  "flex-layout.row#inside__data__card__product":{
-    "title": "inside data card",
-    "children":[
-      "flex-layout.col#inside__info__card__product"
-    ],
-    "props":{
-      "width": 178
-    }
-  },
-  "flex-layout.col#inside__info__card__product":{
-    "title": "inside info card",
-    "children":[
-      "rich-text#description__product",
-      "rich-text#old__price",
-      "rich-text#new__price",
-      "image#send__free"
-    ],
-    "props":{
-      "width": 178,
-      "height": 140
-    }
-  },
-  "flex-layout.row#button__container__product--slider": {
-    "title": "button container slider",
+  "flex-layout.col#items__descount__likes": {
+    "title": "Sección de descuentos y 'me gusta'--product shelf",
+    "props": {
+      "blockClass": [
+        "descounts__likes--row1"
+      ]
+    },
     "children": [
-      "image#sales__btn"
-      ],
-      "props": {
-        "width": "212px",
-        "height": "48px"
-      }
+      "rich-text#item__descount",
+      "image#item__likes"
+    ]
   },
-  "rich-text#new__price": {
-    "title": "New price product",
+  "rich-text#item__descount": {
+    "title": "Descuento del producto--product shelf",
     "props": {
-      "text": "$ 636.900",
-      "font": "t-heading-3",
-      "blockClass": "new__price__product"
-    }
-  },
-  "rich-text#old__price": {
-    "title": "Old price product",
-    "props": {
-      "text": "$ 636.900",
-      "font": "t-heading-3",
-      "blockClass": "old__price__product"
-    }
-  },
-  "rich-text#description__product": {
-    "title": "Description products",
-    "props": {
-      "text": "Descripcion del producto en hasta tres lineas de texto explicativo",
-      "width": 178,
-      "height": 140,
-      "blockClass": "description__product"
-    }
-  },
-  "image#products_1":{
-    "title": "Service first",
-    "props": {
-      "src": "assets/img/IMac.png",
+      "text": "20% OFF",
       "blockClass": [
-        "imageCard"
-      ],
-      "width": 178,
-      "height": 140
+        "price__off--text"
+      ]
     }
   },
-  "image#tag":{
-    "title": "Service first",
+  "image#item__likes": {
+    "title": "Imagen de 'me gusta'--product shelf",
     "props": {
-      "src": "assets/img/Tags.png",
-      "blockClass": [
-        "imageCard"
-      ],
-      "width": 212,
-      "height": 32
+      "src": "/arquivos/Like.png",
+      "blockClass": "likes__Product--images"
     }
   },
-  "image#send__free":{
-    "title": "Send free",
+  "product-summary-image": {
+    "title": "Imagen del producto--product shelf",
     "props": {
-      "src": "assets/img/sendFree.png",
+      "showBadge": true,
+      "height": 220,
       "blockClass": [
-        "imageCard"
-      ],
-      "width": 90,
-      "height": 20
+        "custom_image__slider2"
+      ]
     }
   },
-  "image#sales__btn": {
-    "title": "Sales btn",
-    "props":{
-      "src": "assets/img/ButtonComprar.png",
-      "alt": "ver precio",
+  "product-summary-name": {
+    "props": {
       "blockClass": [
-        "button__product__slide"
-      ],
-      "link":{
-        "url": "https://"
-      }
+        "custom__product__name"
+      ]
     }
   }
 }

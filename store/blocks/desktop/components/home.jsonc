@@ -9,7 +9,7 @@
     }
   },
   "image#main__banner--home":{
-    "title": "smartwatch up",
+    "title": "Main Banner",
     "props":{
       "src": "assets/img/MainBanner.png",
       "href": "/",

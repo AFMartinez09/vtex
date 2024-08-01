@@ -8,11 +8,11 @@
       "rich-text#text__subtitle_products__1",
       "slider-layout#service",
       "rich-text#text__subtitle_products__2",
-      "slider-layout#products",      
+      "flex-layout.row#products__container__slider",      
       "rich-text#text__subtitle_products__3",
       "slider-layout#service",
       "rich-text#text__subtitle_products__4",
-      "slider-layout#products"
+      "flex-layout.row#products__container__slider"
     ]
   }
 
