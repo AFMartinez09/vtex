@@ -1,3 +1,6 @@
+.stretchChildrenWidth{
+  width: 1280px;
+}
 .flexRowContent--card__container__service--home {
   width: 324px;
   height: 336.46px;

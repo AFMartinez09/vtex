@@ -1,0 +1,39 @@
+.description--custom__product__description{
+  max-height: 51px;
+  font-family: "lexend";
+  max-width: 212px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  color: #1d273499;
+  margin: 0px;
+  gap: 10px;
+}
+
+.price_listPriceContainer{
+  font-family: "lexend";
+  font-weight: 400;
+  font-size: 14px;
+  max-width: 212px;
+  max-height: 16.98px;
+  line-height: 16.8px;
+  color: #1d273466;
+  text-decoration: line-through;
+  margin: 0px;
+}
+
+.price_sellingPriceContainer, .sellingPrice{
+  max-width: 212px;
+  max-height: 23px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #1D2734;
+  margin: 0px;
+  padding-bottom: 4px;
+}
+/* corregir no funciona */
+.image--custom_image__slider2{
+  width: 178px;
+  height: 140px;
+}
