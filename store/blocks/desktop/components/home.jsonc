@@ -14,6 +14,7 @@
       "src": "assets/img/MainBanner.png",
       "href": "/",
       "top": "168px",
+      
       "blockClass":[
         "main__banner--home"
       ]
