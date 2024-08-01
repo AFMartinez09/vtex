@@ -2,7 +2,7 @@
   "flex-layout.row#products__container__slider": {
     "title": "product shelf container slider",
     "props": {
-      "blockClass": "main__container__shelf"
+      "blockClass": "product__container__shelf"
     },
     "children": [
       "list-context.product-list#list__products"
@@ -17,7 +17,7 @@
       "slider-layout#home__slider2--products"
     ],
     "props": {
-      "blockClass": "context__product-list"
+      "blockClass": "list__product__context"
     }
   },
   "product-summary.shelf#products__sliders__home": {
@@ -25,7 +25,7 @@
     "children": [
       "flex-layout.col#items__descount__likes",
       "product-summary-image",
-      "product-summary-name",
+      "product-summary-description",
       "product-summary-price",
       "product-summary-buy-button"
     ]
@@ -39,7 +39,7 @@
         "phone": 1
       },
       "blockClass": [
-        "home__slider2--products"
+        "home__products__dynamic"
       ]
     }
   },
@@ -82,9 +82,18 @@
     }
   },
   "product-summary-name": {
+    "title": "nombre del producto--product shelf",
     "props": {
       "blockClass": [
         "custom__product__name"
+      ]
+    }
+  },
+  "product-summary-description": {
+    "title": "description del producto--product shelf",
+    "props": {
+      "blockClass": [
+        "custom__product__description"
       ]
     }
   }

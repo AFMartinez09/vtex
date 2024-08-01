@@ -3,15 +3,15 @@
     "title": "Slider home images full",
     "props": {
       "itemsPerPage": {
-        "desktop": 3,
+        "desktop": 2,
         "tablet": 3,
         "phone": 1
       },
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "blockClass": "carousel__service",
-      "centerMode": "to-the left",
-      "centerModeSlidesGap": "24px",
+      // "centerMode": "to-the left",
+      "centerModeSlidesGap": 24,
       "gap": 24
     },
     "children": [
@@ -91,22 +91,6 @@
       "width": "25%"
     }
   },
-  "flex-layout.col#button__card__service":{
-    "title": "button card service",
-    "children":[
-      "flex-layout.row#service"
-    ],
-    "props":{}
-  },  "flex-layout.row#service": {
-    "children": [
-      "rich-text#button__cart"
-    ],
-    "props":{
-      "blockClass": [
-        "title__card__service"
-      ]
-    }
-  },
   "rich-text#title_service": {
     "title": "Title card service ",
     "props": {
@@ -138,9 +122,7 @@
       "src": "assets/img/OthersServices.png",
       "blockClass": [
         "imageCard__service"
-      ],
-      "maxWidth": "100%"
-
+      ]
     }
   },
   "rich-text#button__cart":{
