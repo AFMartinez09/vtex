@@ -27,7 +27,7 @@
       "product-summary-image",
       "product-summary-description",
       "product-summary-price",
-      "product-summary-buy-button"
+      "add-to-cart-button"
     ]
   },
   "slider-layout#home__slider2--products": {
@@ -51,19 +51,19 @@
       ]
     },
     "children": [
-      "rich-text#item__descount",
+      // "rich-text#item__descount",
       "image#item__likes"
     ]
   },
-  "rich-text#item__descount": {
-    "title": "Descuento del producto--product shelf",
-    "props": {
-      "text": "20% OFF",
-      "blockClass": [
-        "price__off--text"
-      ]
-    }
-  },
+  // "rich-text#item__descount": {
+  //   "title": "Descuento del producto--product shelf",
+  //   "props": {
+  //     "text": "20% OFF",
+  //     "blockClass": [
+  //       "price__off--text"
+  //     ]
+  //   }
+  // },
   "image#item__likes": {
     "title": "Imagen de 'me gusta'--product shelf",
     "props": {
@@ -77,7 +77,7 @@
       "showBadge": true,
       "height": 220,
       "blockClass": [
-        "custom_image__slider2"
+        "custom_image__slider"
       ]
     }
   },

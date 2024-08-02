@@ -181,7 +181,7 @@
     "title": "Nature icon desktop",
     "props":{
       "src": "assets/img/header/Nature.png",
-      "link": "/",
+      // "link": "/",
       "blockClass": [
         "icon__categories__desktop"
       ],
@@ -197,7 +197,7 @@
     "title": "Closet icon desktop",
     "props":{
       "src": "assets/img/header/Closet.png",
-      "link": "/",
+      // "link": "/",
       "blockClass": [
         "icon__categories__desktop"
       ],
@@ -213,7 +213,7 @@
     "title": "Beach icon desktop",
     "props":{
       "src": "assets/img/header/Beach.png",
-      "link": "/",
+      // "link": "/",
       "blockClass": [
         "icon__categories__desktop"
       ],
@@ -229,7 +229,7 @@
     "title": "Alpinism icon desktop",
     "props":{
       "src": "assets/img/header/Alpinism.png",
-      "link": "/",
+      // "link": "/",
       "blockClass": [
         "icon__categories__desktop"
       ],
@@ -245,7 +245,7 @@
     "title": "Delivery icon desktop",
     "props":{
       "src": "assets/img/header/Delivery.png",
-      "link": "/",
+      // "link": "/",
       "blockClass": [
         "icon__categories__desktop"
       ],
@@ -261,7 +261,7 @@
     "title": "Beers icon desktop",
     "props":{
       "src": "assets/img/header/Beers.png",
-      "link": "/",
+      // "link": "/",
       "blockClass": [
         "icon__categories__desktop"
       ],

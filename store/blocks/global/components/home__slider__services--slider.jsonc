@@ -3,14 +3,16 @@
     "title": "Slider home images full",
     "props": {
       "itemsPerPage": {
-        "desktop": 2,
+        "desktop": 3,
         "tablet": 3,
         "phone": 1
       },
+      "centerMode": "to-the-left",
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": "carousel__service",
-      // "centerMode": "to-the left",
+      "blockClass": [
+        "carousel__service"
+      ],
       "centerModeSlidesGap": 24,
       "gap": 24
     },
@@ -53,7 +55,7 @@
   "flex-layout.row#button__container--slider": {
     "title": "button container slider",
     "children": [
-      "image#service__btn"
+      "link#price-btn"
       ]
   },
   "flex-layout.col#OthersServices_1-home":{
@@ -65,8 +67,10 @@
     ],
     "props":{
       "blockClass":[
-        "card__service--home"
-      ]
+        "card__service--home",
+        "color__description"
+      ],
+      "height": 300
     }
   },
   "flex-layout.col#inside__info__card":{
@@ -125,24 +129,27 @@
       ]
     }
   },
-  "rich-text#button__cart":{
-    "title": "button card price",
-    "props":{
-      "text": "button",
-      "font":"t-heading-5"
-    }
-  },
-  "image#service__btn": {
-    "title": "Sales btn",
-    "props":{
-      "src": "assets/img/Btn_ver_precio.png",
-      "alt": "ver precio",
+  "link#price-btn": {
+    "props": {
+      "label": "Ver precio",
+      "url": "/",
       "blockClass": [
-        "button__service__slide"
-      ],
-      "link":{
-        "url": "https://"
-      }
+        "btn__price",
+        "color__description"
+      ]
+    },
+    "children": [
+      "icon#arrow-right"
+    ]
+  },
+  "icon#arrow-right": {
+    "props": {
+      "id": "nav-thin-caret--right",
+      "size": 24,
+      "viewBox": "0 0 24 24",
+      "activeClassName": "active",
+      "blockClass": "icon-arrow"
     }
   }
 }
+ 
