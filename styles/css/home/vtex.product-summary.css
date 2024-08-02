@@ -9,7 +9,10 @@
   margin: 0px;
   gap: 10px;
 }
-
+.clearLink {
+  max-width: 212px;
+  max-height: 378px;
+}
 .price_listPriceContainer{
   font-family: "lexend";
   font-weight: 400;
@@ -32,8 +35,36 @@
   margin: 0px;
   padding-bottom: 4px;
 }
-/* corregir no funciona */
-.image--custom_image__slider2{
-  width: 178px;
-  height: 140px;
+
+.imageNormal{
+  width: 178px !important;
+  height: 140px !important;
+}
+
+.element{
+  max-width: 212px;
+  max-height: 378px;
+  margin-bottom: 10px;
+}
+
+.description
+.buyButtonContainer{
+  width: 212px;
+  height: 48px;
+  border-radius: 8px;
+  padding: 10px;
+  gap: 10px;
+  border: 1px solid #1D2734;
+}
+
+.buyButtonLabel {
+  background-color: transparent;
+}
+.buyButtonText {
+  display: flex;
+  color: #1D2734;
+  font-weight: 400;
+  size: 14px;
+  line-height: 17.5px;
+  align-items: center;
 }

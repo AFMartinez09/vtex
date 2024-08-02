@@ -34,10 +34,19 @@
   );  
   transform: translateX(-25%);
 }
-
-
-
-.flexRowContent--product__container__shelf{
+.sliderTrackContainer--home__products__dynamic{
   width: 1280px;
   height: 340px;
+}
+.slide--home__products__dynamic{
+  max-width: 212px;
+  max-height: 378px;
+}
+
+.paginationDotsContainer{
+  padding-top: 20px;
+}
+
+.flexColChild--color__description{
+  background-color: #FFFFFF;
 }
