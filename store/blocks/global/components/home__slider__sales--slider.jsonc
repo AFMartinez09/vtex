@@ -36,11 +36,15 @@
       "itemsPerPage": {
         "desktop": 5,
         "tablet": 5,
-        "phone": 1
+        "phone": 2
       },
       "blockClass": [
         "home__products__dynamic"
-      ]
+      ],
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "centerModeSlidesGap": 24,
+      "gap": 24
     }
   },
   "flex-layout.col#items__descount__likes": {
@@ -51,19 +55,9 @@
       ]
     },
     "children": [
-      // "rich-text#item__descount",
       "image#item__likes"
     ]
   },
-  // "rich-text#item__descount": {
-  //   "title": "Descuento del producto--product shelf",
-  //   "props": {
-  //     "text": "20% OFF",
-  //     "blockClass": [
-  //       "price__off--text"
-  //     ]
-  //   }
-  // },
   "image#item__likes": {
     "title": "Imagen de 'me gusta'--product shelf",
     "props": {
@@ -95,6 +89,15 @@
       "blockClass": [
         "custom__product__description"
       ]
+    }
+  },
+  "add-to-cart-button": {
+    "title": "summary.shelf button price ",
+    "props": {
+      "blockClass": [
+        "btn__price"
+      ],
+      "isOneClickBuy": false      
     }
   }
 }

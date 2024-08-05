@@ -52,18 +52,26 @@
       ]
     }
   },
+  "flex-layout.row#space": {
+    "children": [],
+    "props": {}
+  },
   "flex-layout.row#button__container--slider": {
     "title": "button container slider",
     "children": [
       "link#price-btn"
-      ]
+      ],
+      "props": {
+        "blockClass": "btn-price"
+      }
   },
   "flex-layout.col#OthersServices_1-home":{
     "title":"Slider col test one",
     "children":[
       "image#OthersServices_1",
       "flex-layout.row#inside__data__card",
-      "flex-layout.row#button__container--slider"
+      "flex-layout.row#button__container--slider",
+      "flex-layout.row#space"
     ],
     "props":{
       "blockClass":[
