@@ -1,7 +1,7 @@
 .description--custom__product__description{
-  max-height: 51px;
+  height: 51px;
   font-family: "lexend";
-  max-width: 212px;
+  width: 212px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.8px;
@@ -10,15 +10,15 @@
   gap: 10px;
 }
 .clearLink {
-  max-width: 212px;
-  max-height: 378px;
+  width: 212px;
+  height: 378px;
 }
 .price_listPriceContainer{
   font-family: "lexend";
   font-weight: 400;
   font-size: 14px;
-  max-width: 212px;
-  max-height: 16.98px;
+  width: 68px;
+  height: 16.98px;
   line-height: 16.8px;
   color: #1d273466;
   text-decoration: line-through;
@@ -26,8 +26,8 @@
 }
 
 .price_sellingPriceContainer, .sellingPrice{
-  max-width: 212px;
-  max-height: 23px;
+  width: 122px;
+  height: 23px;
   font-weight: 600;
   font-size: 24px;
   line-height: 28.8px;
@@ -41,13 +41,6 @@
   height: 140px !important;
 }
 
-.element{
-  max-width: 212px;
-  max-height: 378px;
-  margin-bottom: 10px;
-}
-
-.description
 .buyButtonContainer{
   width: 212px;
   height: 48px;

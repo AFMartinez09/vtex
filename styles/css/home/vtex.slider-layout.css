@@ -36,15 +36,16 @@
 }
 .sliderTrackContainer--home__products__dynamic{
   width: 1280px;
-  height: 340px;
-}
-.slide--home__products__dynamic{
-  max-width: 212px;
-  max-height: 378px;
+  height: 420px;
 }
 
+
 .paginationDotsContainer{
-  padding-top: 20px;
+  width: 1280px;
+  height: 50.89px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .flexColChild--color__description{
