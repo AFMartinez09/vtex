@@ -28,7 +28,9 @@
       "product-summary-name",
       "product-rating-inline",
       "product-summary-space",
-      "product-summary-price",
+      // "product-summary-price",
+      "product-list-price",
+      "product-selling-price",
       "product-identifier.summary",
       "add-to-cart-button"
     ]
