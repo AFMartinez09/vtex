@@ -1,0 +1,27 @@
+.currencyContainer--value{
+  display: flex;
+  font-family: "lexend";
+  font-weight: 400;
+  font-size: 14px;
+  width: 68px;
+  height: 16.98px;
+  line-height: 16.8px;
+  color: #1d2734;
+  opacity: 40%;
+  text-decoration: line-through;
+  margin: 0px;
+  text-align: left;
+}
+
+.sellingPriceValue--sell__value{
+  display: flex;
+  width: 122px;
+  height: 23px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.8px;
+  color: #1d2734;
+  margin: 0px;
+  padding-bottom: 4px;
+  text-align: left;
+}

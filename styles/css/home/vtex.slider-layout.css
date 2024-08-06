@@ -34,20 +34,43 @@
   );  
   transform: translateX(-25%);
 }
+
+.sliderTrackContainer--carousel__service{
+  left: 94px;
+
+}
 .sliderTrackContainer--home__products__dynamic{
-  width: 1280px;
-  height: 420px;
+  position: relative;
+  max-width: 1092px;
+  max-height: 420px;
+  left: 94px;
 }
 
 
 .paginationDotsContainer{
-  width: 1280px;
-  height: 50.89px;
+  max-width: 1280px;
+  max-height: 50.89px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
 }
 
 .flexColChild--color__description{
   background-color: #FFFFFF;
+}
+
+.slideChildrenContainer--home__products__dynamic{
+  max-width: 212px;
+  max-height: 378px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.sliderTrack--carousel__service {
+  padding-bottom: 25px;
+}
+
+.slide--home__products__dynamic{
+  width: 212px !important;
 }

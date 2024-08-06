@@ -1,40 +1,27 @@
 .description--custom__product__description{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
   height: 51px;
   font-family: "lexend";
   width: 212px;
   font-weight: 400;
   font-size: 14px;
   line-height: 16.8px;
-  color: #1d273499;
-  margin: 0px;
-  gap: 10px;
+  color: #1d2734;
+  opacity: 60%;
+  margin: 8px 0px 10px 0px;
+  text-align: left;
 }
+
+
+
 .clearLink {
   width: 212px;
   height: 378px;
 }
-.price_listPriceContainer{
-  font-family: "lexend";
-  font-weight: 400;
-  font-size: 14px;
-  width: 68px;
-  height: 16.98px;
-  line-height: 16.8px;
-  color: #1d273466;
-  text-decoration: line-through;
-  margin: 0px;
-}
 
-.price_sellingPriceContainer, .sellingPrice{
-  width: 122px;
-  height: 23px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #1D2734;
-  margin: 0px;
-  padding-bottom: 4px;
-}
 
 .imageNormal{
   width: 178px !important;
@@ -47,7 +34,7 @@
   border-radius: 8px;
   padding: 10px;
   gap: 10px;
-  border: 1px solid #1D2734;
+  border: 1px solid #1d2734;
 }
 
 .buyButtonLabel {
@@ -55,7 +42,7 @@
 }
 .buyButtonText {
   display: flex;
-  color: #1D2734;
+  color: #1d2734;
   font-weight: 400;
   size: 14px;
   line-height: 17.5px;
