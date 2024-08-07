@@ -1,14 +1,12 @@
 .imageElement--imageCard__service{
   max-height: 186.62px;
   width: 324px;
-  border-radius: 13.82px 13.82px 0px 0px;
+  border-radius: 13.82px 13.82px 0px 0px !important;
 }
 
 .imageElement--main__banner--home{
-  width: 1280px;
+  max-width: 1280px;
   height: 422px;
 }
 
-.container{
-  max-width: 1280px;
-}
+

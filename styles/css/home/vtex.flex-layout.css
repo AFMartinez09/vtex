@@ -1,14 +1,10 @@
-.stretchChildrenWidth{
-  width: 1092px;
-  padding-bottom: 13.82px;
-}
 .slideChildrenContainer--carousel__service {
   width: 324px;
   height: 390.89px;
 }
 .flexRowContent--card__container__service--home {
-  width: 324px !important;
-  height: 390.89px ;
+  height: 340px;
+  width: 324px;
 }
 
 
@@ -18,10 +14,8 @@
 }
 
 .flexColChild--card__service--home{
-  padding-top: 13.82px;
   width: 324px;
   height: 186.62px;
-  border-radius: 10.71px 10.71px 0px 0px;
   left: 40px;
 }
 
@@ -35,18 +29,18 @@
 
 .flexRow--first__header__desktop{
   background-color: #FFFFFF;
-  width: 1280px;
+  max-width: 1280px;
   top: 56px;
 }
 
 .flexCol--card__service--home{
-  border-radius: 12px;
   align-items: center;
   justify-content: center;
   max-width: 324px;
   height: 340px;
   background-color: #FFFFFF;
   padding-bottom: 13.82px;
+  border-radius: 12px;
 }
 
 .flexCol--descounts__likes--row1{
