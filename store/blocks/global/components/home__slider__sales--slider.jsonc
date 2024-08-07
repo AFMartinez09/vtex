@@ -44,7 +44,8 @@
       ],
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
-      "centerModeSlidesGap": 24
+      "centerModeSlidesGap": 24,
+      "gap": "24px"
     }
   },
   "flex-layout.col#items__descount__likes": {

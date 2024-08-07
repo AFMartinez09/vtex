@@ -12,9 +12,7 @@
       "showNavigationArrows": "desktopOnly",
       "blockClass": [
         "carousel__service"
-      ],
-      "centerModeSlidesGap": 24,
-      "gap": 24
+      ]
     },
     "children": [
       "flex-layout.row#Others__services__one--slider-home",
@@ -36,8 +34,7 @@
     "props":{
       "blockClass":[
         "card__container__service--home"
-      ],
-      "gap": "24px"
+      ]
     }
   },
   "flex-layout.row#inside__data__card":{
