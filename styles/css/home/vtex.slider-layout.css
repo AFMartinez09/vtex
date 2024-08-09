@@ -41,15 +41,18 @@
   );  
   transform: translateX(-25%);
 }
-
+.sliderLayoutContainer--carousel__service{
+  max-width: 1280px;
+}
 .sliderTrackContainer--carousel__service{
   left: 94px;
 }
 .sliderTrackContainer--home__products__dynamic{
-  position: relative;
+  display: flex;
+  flex-direction: column;
   max-width: 1092px;
-  height: 420px;
-  left: 94px;
+  height: 420px ;
+  margin-left: 94px;
 }
 
 
