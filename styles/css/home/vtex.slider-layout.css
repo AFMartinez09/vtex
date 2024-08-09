@@ -19,7 +19,6 @@
 .paginationDot--isActive::before {  
   content: "";  
   position: absolute;  
-
   width: 16.96px;  
   height: 16.96px;      
   background-color: #1d2734;  
@@ -45,12 +44,11 @@
 
 .sliderTrackContainer--carousel__service{
   left: 94px;
-
 }
 .sliderTrackContainer--home__products__dynamic{
   position: relative;
   max-width: 1092px;
-  max-height: 420px;
+  height: 420px;
   left: 94px;
 }
 
