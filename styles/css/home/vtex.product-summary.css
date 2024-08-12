@@ -15,19 +15,6 @@
   text-align: left;
 }
 
-
-
-.clearLink {
-  width: 212px;
-  height: 378px;
-}
-
-
-.imageNormal{
-  width: 178px !important;
-  height: 140px !important;
-}
-
 .buyButtonContainer{
   width: 212px;
   height: 48px;
@@ -47,4 +34,17 @@
   size: 14px;
   line-height: 17.5px;
   align-items: center;
+}
+
+.container{
+  width: 212px;   
+  height: 378px;    
+  gap: 12px;   
+  opacity: 0px;
+}
+
+.imageNormal, .imageWrapper--custom_image__slider{
+  width: 178px;
+  height: 140px;
+  margin: 0px;
 }

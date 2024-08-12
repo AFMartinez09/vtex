@@ -13,10 +13,10 @@
   width: 134px !important;
   height: 43px !important;
   font-weight: 400;
-  size: 12px;
+  font-size: 12px;
   line-height: 15px;
 }
 
 .childrenContainer--btn__price{
-  transform: translateY(25%);
+  transform: translateY(20%);
 }

@@ -43,8 +43,23 @@
   border-radius: 12px;
 }
 
-.flexCol--descounts__likes--row1{
+.flexCol--container__discounts__likes{
+  display: flex;
+  flex-direction: row;
   width: 212px;
   height: 32px;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.ColChild--container__discounts__likes{
+    border: 1px solid #1d2734;
+    width: 44px;
+    height: 32px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
+}
+
+.stretchChildrenWidth{
+  max-width: 1280px;
+}
