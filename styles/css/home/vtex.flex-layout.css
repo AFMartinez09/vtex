@@ -20,16 +20,13 @@
 }
 
 .flexRowContent--set__icons__desktop {
-  background-color: #FFFFFF;
-  left: 72px;
-  top: 9px;
-  height: 47px;
-  max-width: 1280px;
+  margin-left: 72px;
+  width: 1136px;
 }
 
 .flexRow--first__header__desktop{
   background-color: #FFFFFF;
-  max-width: 1280px;
+  width: 1280px;
   top: 56px;
 }
 
@@ -62,4 +59,13 @@
 
 .stretchChildrenWidth{
   max-width: 1280px;
+}
+
+.flexRow--header__icons{
+  background-color: #ffffff;
+  width: 1280px;
+}
+
+.stretchChildrenWidth{
+  width: auto;
 }
