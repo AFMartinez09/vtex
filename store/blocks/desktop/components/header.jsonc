@@ -1,276 +1,68 @@
 {
-  "flex-layout.row#header__container__desktop":{
-    "title": "header container desktop",
+  "flex-layout.row#header__container__desktop": {
+    "title": "bloque texto del header",
     "children": [
-      "sticky-layout#desktop"
-    ],
-    "props":{
-      "blockClass": [
-        "container__categories__icons"
-      ],
-      "background": "#FFFFFF",
-      "top": "56px"
-    }
-  },
-  "sticky-layout#desktop": {
-    "props": {
-      "blockClass": [
-        "categories__header__desktop__"
-      ]
-    },
-    "children": [
-      "flex-layout.row#desktop",
-      "flex-layout.row#btn__icons__desktop"
+      "link#block__header__text"
     ]
   },
-  "flex-layout.row#desktop": {
-    "props": {
-      "horizontalAlign": "center",
-      "verticalAlign": "center",
-      "preventHorizontalStretch": true,
-      "preventVerticalStretch": true,
-      "fullWidth": true,
-      "blockClass": [
-        "first__header__desktop"
-      ]
-    },
+  "link#block__header__text":{
+    "title": "bloque de texto",
     "children": [
-      "flex-layout.col#logo-desktop",
-      "flex-layout.col#spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart.v2"
+      "link#trends",
+      "link#collections",
+      "link#sales__month",
+      "link#cyber__monday",
+      "link#never__say__never"
     ]
   },
-  "flex-layout.col#logo-desktop": {
+  "link#trends": {
+    "title": "Tendencias de ITGlobers",
     "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["logo"]
-  },
-  "flex-layout.row#banner__categories__desktop": {
-    "title": "banner__icons__desktop",
-    "children":[
-      "flex-layout.row#btn__icons__desktop"
-    ],
-    "props":{
-      "gap": "4px",
-      "blockClass": "banner__categories__desktop",
-      "top": "168px"
-    }
-  },
-  "flex-layout.row#btn__icons__desktop": {
-    "title": "banner__icons__desktop",
-    "children":[
-      "image#category__Food",
-      "image#category__Fitness",
-      "image#category__Snowflake",
-      "image#category__Poolday",
-      "image#category__Hotels",
-      "image#category__Houses",
-      "image#category__Hotels",
-      "image#category__Nature",
-      "image#category__Closet",
-      "image#category__Beach",
-      "image#category__Alpinism",
-      "image#category__Delivery",
-      "image#category__Beers"
-    ],
-    "props":{
-      "blockClass": "set__icons__desktop"
-    }
-  },
-  "image#category__Food": {
-    "title": "Food icon desktop",
-    "props":{
-      "src": "assets/img/header/Food.png",
-      "link": "/",
+      "label": "Tendencias de ITGlobers",
+      "url": "/",
       "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Food"
+        "trends__header"
+    ]
     }
   },
-  "image#category__Fitness": {
-    "title": "Fitness icon desktop",
-    "props":{
-      "src": "assets/img/header/Fitness.png",
-      "link": "/",
+  "link#collections": {
+    "title": "Coleccion del mes",
+    "props": {
+      "label": "Colección del mes",
+      "url": "/",
       "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Fitness"
+        "collection__header"
+    ]
     }
   },
-  "image#category__Snowflake": {
-    "title": "Snowflake icon desktop",
-    "props":{
-      "src": "assets/img/header/Snowflake.png",
-      "link": "/",
+  "link#sales__month": {
+    "title": "ofertas de enero",
+    "props": {
+      "label": "Ofertas de enero",
+      "url": "/",
       "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "En el Ártico"
+        "sales__month__header"
+    ]
     }
   },
-  "image#category__Poolday": {
-    "title": "Poolday icon desktop",
-    "props":{
-      "src": "assets/img/header/Poolday.png",
-      "link": "/",
+  "link#cyber__monday": {
+    "title": "cyber monday",
+    "props": {
+      "label": "Cyber Monday",
+      "url": "/",
       "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Poolday"
+        "cyber__monday__header"
+    ]
     }
   },
-  "image#category__Hotels": {
-    "title": "Hotels icon desktop",
-    "props":{
-      "src": "assets/img/header/Hotels.png",
-      "link": "/",
+  "link#never__say__never": {
+    "title": "never say never",
+    "props": {
+      "label": "never say never",
+      "url": "/",
       "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Hoteles"
-    }
-  },
-  "image#category__Houses": {
-    "title": "Houses icon desktop",
-    "props":{
-      "src": "assets/img/header/Houses.png",
-      "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Casas"
-    }
-  },
-  "image#category__Nature": {
-    "title": "Nature icon desktop",
-    "props":{
-      "src": "assets/img/header/Nature.png",
-      // "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Naturales"
-    }
-  },
-  "image#category__Closet": {
-    "title": "Closet icon desktop",
-    "props":{
-      "src": "assets/img/header/Closet.png",
-      // "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Closet"
-    }
-  },
-  "image#category__Beach": {
-    "title": "Beach icon desktop",
-    "props":{
-      "src": "assets/img/header/Beach.png",
-      // "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Playas"
-    }
-  },
-  "image#category__Alpinism": {
-    "title": "Alpinism icon desktop",
-    "props":{
-      "src": "assets/img/header/Alpinism.png",
-      // "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Alpinismo"
-    }
-  },
-  "image#category__Delivery": {
-    "title": "Delivery icon desktop",
-    "props":{
-      "src": "assets/img/header/Delivery.png",
-      // "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Delivery"
-    }
-  },
-  "image#category__Beers": {
-    "title": "Beers icon desktop",
-    "props":{
-      "src": "assets/img/header/Beers.png",
-      // "link": "/",
-      "blockClass": [
-        "icon__categories__desktop"
-      ],
-      "max-width": "70px",
-      "height": "47px",
-      "border": "0px 0px 1px 0px",
-      "gap": "4px",
-      "background-color": "#FFFFFF",
-      "alt": "Cervezas"
+        "never__say__header"
+    ]
     }
   }
 }
