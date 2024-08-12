@@ -20,3 +20,29 @@
 .childrenContainer--btn__price{
   transform: translateY(20%);
 }
+.link--header__icon  {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  width: 70px !important;
+  height: 47px !important;
+  text-decoration: none;
+}
+
+.link--header__ac_unit{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    width: 80px !important;
+    height: 47px !important;
+    text-decoration: none;
+  }
+  .label--header__icon, 
+  .label--header__ac_unit {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1D2734;
+  }
