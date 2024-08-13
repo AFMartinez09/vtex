@@ -1,5 +1,5 @@
 {
-  "flex-layout.row#header__container__desktop": {
+  "flex-layout.row#header__container__text__desktop": {
     "title": "bloque texto del header",
     "children": [
       "link#block__header__text"
