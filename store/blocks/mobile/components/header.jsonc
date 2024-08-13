@@ -18,6 +18,23 @@
     }
   },
   "drawer": {
+    "props":{
+      "blockClass": [
+        "drawer__desktop"
+      ],
+      "width": "18px",
+      "height": "12px",
+      "color": "#1d2734"
+    },
     "children": []
+  },
+  "login":{
+    "props":{
+      "optionsTitle": "login",
+      "iconLabel": "login",
+      "blockClass": [
+        "login__desktop"
+      ]
+    }
   }
 }

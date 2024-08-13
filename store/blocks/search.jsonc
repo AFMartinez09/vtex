@@ -2,6 +2,9 @@
   "store.search": {
     "blocks": [
       
-    ]
+    ],
+    "props": {
+      "blockClass": "searchbar__desktop"
+    }
   }
 }
