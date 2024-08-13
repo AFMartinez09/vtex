@@ -12,3 +12,21 @@
 .container{
   padding: 0px;
 }
+
+.logoContainer--logo__company{
+  max-width: 32px;
+  max-height: 16px;
+  padding: 0px 16px 0px 8px;
+}
+
+.searchBarContainer{
+  border-radius: 40px;
+  width: 280px;
+  height: 40px;
+}
+
+.autoCompleteOuterContainer--search__bar__desktop{
+  border-radius: 40px !important;
+  width: 280px !important;
+  height: 40px !important;
+}
