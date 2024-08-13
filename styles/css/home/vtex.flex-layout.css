@@ -27,7 +27,7 @@
 .flexRow--first__header__desktop{
   background-color: #FFFFFF;
   width: 1280px;
-  top: 56px;
+  padding: 72px 56px 0px 72px;
 }
 
 .flexCol--card__service--home{
@@ -68,4 +68,28 @@
 
 .stretchChildrenWidth{
   width: auto;
+}
+
+.flexRow--text__header__desktop{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1d2734;
+  text-decoration: none;
+}
+
+.flexRow--text__header__desktop{
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1d2734;
+    text-decoration: none;
+    display: flex;
+    margin-left: 40px;
+}
+
+.flexRowContent--text__header__desktop {
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }

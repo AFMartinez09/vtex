@@ -46,3 +46,41 @@
     line-height: 15px;
     color: #1D2734;
   }
+
+  .link--hdr__text__container{
+    text-decoration: none;
+  }
+.link--trends__header{
+  color: #1D2734;
+  text-decoration: none;
+  width: 144px !important;
+  height: 15px;
+  margin-right: 13px;
+}
+.link--collection__header{
+  color: #1D2734;
+  text-decoration: none;
+  width: 105px;
+  height: 15px;
+  margin-right: 13px;
+}
+.link--sales__month__header{
+  color: #1D2734;
+  text-decoration: none;
+  width: 81px;
+  height: 15px;
+  margin-right: 14px;
+}
+.link--cyber__monday__header{
+  color: #1D2734;
+  text-decoration: none;
+  width: 85px;
+  height: 15px;
+  margin-right: 13px;
+}
+.link--never__say__header{
+  color: #1D2734;
+  text-decoration: none;
+  width: 95px;
+  height: 15px;
+}
