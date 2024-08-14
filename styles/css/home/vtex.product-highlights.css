@@ -9,6 +9,10 @@
   width: 85px;
 }
 
-.productHighlightText--product__highlight__text[data-highlight-id="150"] {
+.productHighlightWrapper--product__highlight__container__wrapper[data-highlight-id="150"] {
   display: none;
+}
+.productHighlightWrapper--product__highlight__container__wrapper{
+  display: flex;
+  flex-direction: row;
 }
