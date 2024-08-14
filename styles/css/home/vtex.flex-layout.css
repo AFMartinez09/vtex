@@ -26,8 +26,8 @@
 
 .flexRow--first__header__desktop{
   background-color: #FFFFFF;
-  max-width: 1280px;
-  padding: 72px 56px 0px 72px;
+  width: 1280px;
+  padding: 56px 72px 0px 72px;
 }
 
 .flexCol--card__service--home{
