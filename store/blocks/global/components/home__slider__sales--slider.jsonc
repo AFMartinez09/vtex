@@ -1,4 +1,4 @@
-{
+{  
   "flex-layout.row#products__container__slider": {
     "title": "product shelf container slider",
     "props": {
@@ -23,11 +23,13 @@
   "product-summary.shelf#products__sliders__home": {
     "title": "Tarjeta de producto",
     "children": [
-      "flex-layout.col#items__descount__likes",
-      "product-summary-image",
+      "flex-layout.col#items__discount__likes",
+      "product-summary-image#product__picture",
       "product-summary-description",
+      "product-summary-space",
       "product-list-price",
       "product-selling-price",
+      "vtex.product-highlights@2.x:product-highlights",
       "add-to-cart-button"
     ]
   },
@@ -48,29 +50,41 @@
       "gap": "24px"
     }
   },
-  "flex-layout.col#items__descount__likes": {
+  "flex-layout.col#items__discount__likes": {
     "title": "Sección de descuentos y 'me gusta'--product shelf",
     "props": {
       "blockClass": [
-        "descounts__likes--row1"
+        "container__discounts__likes"
       ]
     },
     "children": [
-      "image#item__likes"
+      "product-price-savings#discount",
+      "add-to-list-btn#item__likes"
     ]
   },
-  "image#item__likes": {
-    "title": "Imagen de 'me gusta'--product shelf",
-    "props": {
-      "src": "/arquivos/Like.png",
-      "blockClass": "likes__Product--images"
+  "product-price-savings#discount": {
+    "title": "discount product",
+    "props":{
+      "message": "{ savingsPercentage } OFF",
+      "blockClass":[
+        "discount__product"
+      ]
     }
   },
-  "product-summary-image": {
+  "add-to-list-btn#item__likes": {
+    "title": "Imagen de 'me gusta'--product shelf",
+    "props": {
+      "blockClass": "likes__Product",
+      "width": 20,
+      "height": 20
+    }
+  },
+  "product-summary-image#product__picture": {
     "title": "Imagen del producto--product shelf",
     "props": {
-      "showBadge": true,
-      "height": 220,
+      "showBadge": false,
+      "height": "140px",
+      "width": "178px",
       "blockClass": [
         "custom_image__slider"
       ]
@@ -111,7 +125,26 @@
       "blockClass":"sell__value"
     }
   },
-
+  "vtex.product-highlights@2.x:product-highlights": {
+    "title": "free delivery",
+    "props": {
+      "type": "collection",
+      "id": 151,
+      "blockClass":[
+        "product__highlight__delivery"
+      ]
+    },
+    "children": [
+      "product-highlight-text"
+    ]
+  },
+  "product-highlight-text": {
+    "title": "message delivery",
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "product__highlight__text"
+    }
+  },
   "add-to-cart-button": {
     "title": "summary.shelf button price ",
     "props": {
@@ -121,4 +154,5 @@
       "isOneClickBuy": false      
     }
   }
+
 }

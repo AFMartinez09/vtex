@@ -1,0 +1,9 @@
+.productHighlightText--product__highlight__text{
+  color: #FA2080;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16.8px;
+  display: flex;
+  justify-content: start;
+  margin-bottom: 8px;
+}

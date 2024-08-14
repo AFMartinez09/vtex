@@ -20,17 +20,14 @@
 }
 
 .flexRowContent--set__icons__desktop {
-  background-color: #FFFFFF;
-  left: 72px;
-  top: 9px;
-  height: 47px;
-  max-width: 1280px;
+  margin-left: 72px;
+  width: 1136px;
 }
 
 .flexRow--first__header__desktop{
   background-color: #FFFFFF;
-  max-width: 1280px;
-  top: 56px;
+  width: 1280px;
+  padding: 72px 56px 0px 72px;
 }
 
 .flexCol--card__service--home{
@@ -43,8 +40,56 @@
   border-radius: 12px;
 }
 
-.flexCol--descounts__likes--row1{
+.flexCol--container__discounts__likes{
+  display: flex;
+  flex-direction: row;
   width: 212px;
   height: 32px;
+  align-items: center;
+  justify-content: space-between;
 }
 
+.ColChild--container__discounts__likes{
+    border: 1px solid #1d2734;
+    width: 44px;
+    height: 32px;
+    padding: 6px 12px 6px 12px;
+    border-radius: 4px;
+}
+
+.stretchChildrenWidth{
+  max-width: 1280px;
+}
+
+.flexRow--header__icons{
+  background-color: #ffffff;
+  width: 1280px;
+}
+
+.stretchChildrenWidth{
+  width: auto;
+}
+
+.flexRow--text__header__desktop{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #1d2734;
+  text-decoration: none;
+}
+
+.flexRow--text__header__desktop{
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #1d2734;
+    text-decoration: none;
+    display: flex;
+    margin-left: 40px;
+}
+
+.flexRowContent--text__header__desktop {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}

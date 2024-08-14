@@ -10,7 +10,446 @@
       "href": "/",
       "url": "assets/img/ITGLogo.png",
       "width": "32",
-      "height": "16"
+      "height": "16",
+      "blockClass": ["logo__company"]
+    }
+  },
+  "flex-layout.row#header__container__desktop":{
+    "title": "header container desktop",
+    "children": [
+      "sticky-layout#desktop"
+    ],
+    "props":{
+      "blockClass": [
+        "container__categories__icons"
+      ],
+      "background": "#FFFFFF",
+      "top": "56px"
+    }
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": [
+        "categories__header__desktop__"
+      ]
+    },
+    "children": [
+      "flex-layout.row#desktop",
+      "flex-layout.row#btn__icons__desktop"
+    ]
+  },
+  "flex-layout.row#desktop": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": [
+        "first__header__desktop"
+      ]
+    },
+    "children": [
+      "drawer",
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#spacer",
+      "search-bar",
+      "flex-layout.row#header__container__text__desktop",
+      "minicart.v2",
+      "login"
+    ]
+  },
+  "search-bar": {
+    "props": {
+      "blockClass": "search__bar__desktop"
+    }
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": [
+      "logo"
+    ]
+  },
+  "login": {
+    "props": {
+      "optionsTitle": "login",
+      "iconLabel": "login",
+      "blockClass": "btn__login"
+    }
+  },
+  "flex-layout.row#header__container__text__desktop": {
+    "title": "bloque texto del header",
+    "children": [
+      "link#block__header__text"
+    ],
+    "props": {
+      "blockClass": "text__header__desktop"
+    }
+  },
+  "link#block__header__text":{
+    "title": "bloque de texto",
+    "children": [
+      "link#trends",
+      "link#collections",
+      "link#sales__month",
+      "link#cyber__monday",
+      "link#never__say__never"
+    ],
+    "props": {
+      "blockClass": "hdr__text__container"
+    }
+  },
+  "link#trends": {
+    "title": "Tendencias de ITGlobers",
+    "props": {
+      "label": "Tendencias de ITGlobers",
+      "url": "/",
+      "blockClass": [
+        "trends__header"
+    ]
+    }
+  },
+  "link#collections": {
+    "title": "Coleccion del mes",
+    "props": {
+      "label": "Colección del mes",
+      "url": "/",
+      "blockClass": [
+        "collection__header"
+    ]
+    }
+  },
+  "link#sales__month": {
+    "title": "ofertas de enero",
+    "props": {
+      "label": "Ofertas de enero",
+      "url": "/",
+      "blockClass": [
+        "sales__month__header"
+    ]
+    }
+  },
+  "link#cyber__monday": {
+    "title": "cyber monday",
+    "props": {
+      "label": "Cyber Monday",
+      "url": "/",
+      "blockClass": [
+        "cyber__monday__header"
+    ]
+    }
+  },
+  "link#never__say__never": {
+    "title": "never say never",
+    "props": {
+      "label": "never say never",
+      "url": "/",
+      "blockClass": [
+        "never__say__header"
+    ]
+    }
+  },
+  "flex-layout.row#btn__icons__desktop": {
+    "title": "banner__icons__desktop",
+    "children":[
+      "link#header__fastfood",
+      "link#header__fitness",
+      "link#header__ac_unit",
+      "link#header__deck",
+      "link#header__hotel",
+      "link#header__house",
+      "link#header__hotel",
+      "link#header__spa",
+      "link#header__checkroom",
+      "link#header__beach__access",
+      "link#header__moped",
+      "link#header__elderly",
+      "link#header__sports__bar"
+    ],
+    "props":{
+      "blockClass": [
+        "set__icons__desktop",
+        "header__icons"
+    ]
+    }
+  },
+  "link#header__fastfood": {
+    "title": "header icon fast food",
+    "props": {
+      "label": "Food",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__fastfood"
+    ]
+  },  
+  "link#header__fitness": {
+    "title": "header icon fitness",
+    "children": [
+      "icon#header__fitness"
+    ],
+    "props": {
+      "label": "Fitness",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    }
+
+  },  
+  "link#header__ac_unit": {
+    "title": "header icon en el ártico",
+    "props": {
+      "label": "En el Ártico",
+      "url": "/",
+      "blockClass": [
+        "header__ac_unit"
+      ]
+    },
+    "children": [
+      "icon#header__ac_unit"
+    ]
+  },
+  "link#header__deck": {
+    "title": "header icon poolday",
+    "props": {
+      "label": "Poolday",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__deck"
+    ]
+  },
+  "link#header__hotel": {
+    "title": "header icon hotel",
+    "props": {
+      "label": "Hoteles",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__hotel"
+    ]
+  },  
+  "link#header__house": {
+    "title": "header icon casas",
+    "props": {
+      "label": "Casas",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__house"
+    ]
+  }, 
+  "link#header__spa": {
+    "title": "header icon Natural",
+    "props": {
+      "label": "Naturales",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__spa"
+    ]
+  }, 
+  "link#header__checkroom": {
+    "title": "header icon closet",
+    "props": {
+      "label": "Closet",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__checkroom"
+    ]
+  }, 
+  "link#header__beach__access": {
+    "title": "header icon beach access",
+    "props": {
+      "label": "Playas",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__beach__access"
+    ]
+  }, 
+  "link#header__elderly": {
+    "title": "header icon alpinismo",
+    "props": {
+      "label": "Alpinismo",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__elderly"
+    ]
+  },
+  "link#header__moped": {
+    "title": "header icon delivery",
+    "props": {
+      "label": "Delivery",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__moped"
+    ]
+  },
+  "link#header__sports__bar": {
+    "title": "header icon cervezas",
+    "props": {
+      "label": "Cervezas",
+      "url": "/",
+      "blockClass": [
+        "header__icon"
+      ]
+    },
+    "children": [
+      "icon#header__sports__bar"
+    ]
+  }, 
+  "icon#header__fastfood": {
+    "title": "icon_fastfood",
+    "props": {
+      "id": "fastfood_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__fastfood",
+      "alt": "Fastfood"
+    }
+  },
+  "icon#header__fitness": {
+    "title": "icon_fitness",
+    "props": {
+      "id": "fitness_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__fitness",
+      "alt": "Fitness"
+    }
+  },
+  "icon#header__ac_unit": {
+    "title": "icon_Ártico",
+    "props": {
+      "id": "ac_unit_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__ac_unit",
+      "alt": "Ártico"
+    }
+  },
+  "icon#header__deck": {
+    "title": "icon__poolday",
+    "props": {
+      "id": "deck_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__deck",
+      "alt": "Poolday"
+    }
+  },
+  "icon#header__hotel": {
+    "title": "icon_hotel",
+    "props": {
+      "id": "hotel_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__hotel",
+      "alt": "Hotel"
+    }
+  },
+  "icon#header__house": {
+    "title": "icon_casa",
+    "props": {
+      "id": "house_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__house",
+      "alt": "Casas"
+    }
+  },
+  "icon#header__spa": {
+    "title": "icon_natural",
+    "props": {
+      "id": "spa_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__spa",
+      "alt": "Natural"
+    }
+  },
+  "icon#header__checkroom": {
+    "title": "icon_closet",
+    "props": {
+      "id": "checkroom_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__checkroom",
+      "alt": "Closet"
+    }
+  },
+  "icon#header__beach__access": {
+    "title": "icon_playas",
+    "props": {
+      "id": "beach_access_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__beach__access",
+      "alt": "Playas"
+    }
+  },
+  "icon#header__moped": {
+    "title": "icon_delivery",
+    "props": {
+      "id": "moped_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__moped",
+      "alt": "Delivery"
+    }
+  },
+  "icon#header__elderly": {
+    "title": "icon_alpinismo",
+    "props": {
+      "id": "elderly_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__elderly",
+      "alt": "Alpinismo"
+    }
+  },
+  "icon#header__sports__bar": {
+    "title": "cervezas",
+    "props": {
+      "id": "sports_bar_header",
+      "size": 20,
+      "viewBox": "0 0 24 24",
+      "blockClass": "header__sports__bar",
+      "alt": "Cervezas"
     }
   }
 }
