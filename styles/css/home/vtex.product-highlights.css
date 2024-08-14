@@ -5,5 +5,10 @@
   line-height: 16.8px;
   display: flex;
   justify-content: start;
-  margin-bottom: 8px;
+  margin: 0px 4px 8px 0px;
+  width: 85px;
+}
+
+.productHighlightText--product__highlight__text[data-highlight-id="150"] {
+  display: none;
 }
