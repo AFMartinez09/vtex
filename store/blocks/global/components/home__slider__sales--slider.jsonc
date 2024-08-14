@@ -135,7 +135,8 @@
       ]
     },
     "children": [
-      "product-highlight-text"
+      "product-highlight-text",
+      "icon#lightning"
     ]
   },
   "product-highlight-text": {
@@ -152,6 +153,13 @@
         "btn__price"
       ],
       "isOneClickBuy": false      
+    }
+  },
+  "icon#lightning": {
+    "title": "icon lightning in free delivery",
+    "props": {
+      "id": "lightning",
+      "size": 15
     }
   }
 
