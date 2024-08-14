@@ -129,12 +129,21 @@
     "title": "free delivery",
     "props": {
       "type": "collection",
-      "id": 151,
       "blockClass":[
         "product__highlight__delivery"
       ]
     },
     "children": [
+      "product-highlight-wrapper#container"
+    ]
+  },
+  "product-highlight-wrapper#container":{
+    "props":{
+      "blockClass": [
+        "product__highlight__container__wrapper"
+      ]
+    },
+    "children":[
       "product-highlight-text",
       "icon#lightning"
     ]
