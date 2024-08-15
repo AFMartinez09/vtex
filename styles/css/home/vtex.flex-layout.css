@@ -1,44 +1,50 @@
+.flexRow {
+  max-width: 1280px;
+  width    : 100%;
+  margin   : 0 auto;
+  overflow : hidden;
+}
+
 .slideChildrenContainer--info__card--home {
-  width : 324px;
-  height: 390.89px;
+  max-width : 324px;
+  max-height: 390.89px;
 }
 
 .flexRowContent--info__card--slider--home--home {
-  height: 340px;
-  width : 324px;
+  max-height: 340px;
+  max-width : 324px;
 }
 
 .flexRow--description__service__card {
-  width : 324px;
-  height: 79.19px;
+  max-width : 324px;
+  max-height: 79.19px;
 }
 
 .flexColChild--card__service--home {
-  width : 324px;
-  height: 186.62px;
-  left  : 40px;
+  max-width : 100%;
+  max-height: 186.62px;
 }
 
 .flexColChild--container__discounts__likes {
-  height: 60%;
+  max-height: 60%;
 }
 
 .flexRowContent--set__icons__desktop {
   margin-left: 72px;
-  width      : 1136px;
+  max-width  : 1136px;
 }
 
 .flexRow--first__header__desktop {
   background-color: #FFFFFF;
-  width           : 1280px;
-  padding         : 56px 72px 0px 72px;
+  max-width       : 1280px;
+  padding         : 3.5rem 4.5rem 0px 4.5rem;
 }
 
 .flexCol--card__service--home {
   align-items     : center;
   justify-content : center;
   max-width       : 324px;
-  height          : 340px;
+  max-height      : 340px;
   background-color: #FFFFFF;
   padding-bottom  : 13.82px;
   border-radius   : 12px;
@@ -47,8 +53,8 @@
 .flexCol--container__discounts__likes {
   display        : flex;
   flex-direction : row;
-  width          : 212px;
-  height         : 32px;
+  max-width      : 212px;
+  max-height     : 32px;
   align-items    : center;
   justify-content: space-between;
   margin-bottom  : 12px;
@@ -56,8 +62,8 @@
 
 .ColChild--container__discounts__likes {
   border       : 1px solid #1d2734;
-  width        : 44px;
-  height       : 32px;
+  max-width    : 44px;
+  max-height   : 32px;
   padding      : 6px 12px 6px 12px;
   border-radius: 4px;
 }
@@ -72,7 +78,7 @@
 }
 
 .stretchChildrenWidth {
-  width: auto;
+  max-width: auto;
 }
 
 .flexRow--text__header__desktop {
@@ -90,7 +96,7 @@
   color          : #1d2734;
   text-decoration: none;
   display        : flex;
-  margin-left    : 40px;
+  margin-left    : 2rem;
 }
 
 .flexRowContent--text__header__desktop {

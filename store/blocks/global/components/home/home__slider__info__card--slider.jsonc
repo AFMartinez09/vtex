@@ -5,7 +5,9 @@
       "itemsPerPage": {
         "desktop": 3,
         "tablet": 3,
-        "phone": 1
+        "phone": 1,
+        "mobile": 1
+
       },
       "centerMode": "to-the-left",
       "infinite": true,

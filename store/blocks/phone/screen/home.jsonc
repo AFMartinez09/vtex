@@ -1,8 +1,8 @@
 {
-      "responsive-layout.phone#screen__phone":{
-        "title": "home section screen Phone",
-        "children": [
-          "flex-layout.row#home__screen__phone"
-        ]
-      }
+      // "responsive-layout.phone#screen__phone":{
+      //   "title": "home section screen Phone",
+      //   "children": [
+      //     "flex-layout.row#home__screen__phone"
+      //   ]
+      // }
 }

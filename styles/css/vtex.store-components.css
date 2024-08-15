@@ -1,12 +1,12 @@
 .imageElement--imageCard__service {
   max-height   : 186.62px;
-  width        : 324px;
+  width        : 100vw;
   border-radius: 13.82px 13.82px 0px 0px !important;
 }
 
 .imageElement--hero__desktop {
-  width : 1280px;
-  height: 422px;
+  max-width : 1280px;
+  max-height: 422px;
 }
 
 .container {
@@ -24,12 +24,12 @@
 
 .searchBarContainer {
   border-radius: 40px !important;
-  width        : 280px;
-  height       : 40px;
+  max-width        : 280px;
+  max-height       : 40px;
 }
 
 .autoCompleteOuterContainer--search__bar__desktop {
   border-radius: 40px !important;
-  width        : 280px !important;
-  height       : 40px !important;
+  max-width        : 280px !important;
+  max-height       : 40px !important;
 }

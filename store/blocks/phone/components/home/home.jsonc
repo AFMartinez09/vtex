@@ -1,14 +1,2 @@
 {
-  "flex-layout.row#home__screen__phone":{
-    "title": "Phone row with banner",
-    "children": [
-      "image#phone__section--1"
-    ]
-  },
-  "image#phone__section--1":{
-    "title": "Text Favourites at phone",
-    "props": {
-      "src": "assets/img/Hero-MobilebannerPhone.png"
-    }
-  }
 }
