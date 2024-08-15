@@ -1,68 +1,68 @@
 {
-  "flex-layout.row#header__container__text__desktop": {
-    "title": "bloque texto del header",
-    "children": [
-      "link#block__header__text"
-    ]
-  },
-  "link#block__header__text":{
-    "title": "bloque de texto",
-    "children": [
-      "link#trends",
-      "link#collections",
-      "link#sales__month",
-      "link#cyber__monday",
-      "link#never__say__never"
-    ]
-  },
-  "link#trends": {
-    "title": "Tendencias de ITGlobers",
-    "props": {
-      "label": "Tendencias de ITGlobers",
-      "url": "/",
-      "blockClass": [
-        "trends__header"
-    ]
-    }
-  },
-  "link#collections": {
-    "title": "Coleccion del mes",
-    "props": {
-      "label": "Colección del mes",
-      "url": "/",
-      "blockClass": [
-        "collection__header"
-    ]
-    }
-  },
-  "link#sales__month": {
-    "title": "ofertas de enero",
-    "props": {
-      "label": "Ofertas de enero",
-      "url": "/",
-      "blockClass": [
-        "sales__month__header"
-    ]
-    }
-  },
-  "link#cyber__monday": {
-    "title": "cyber monday",
-    "props": {
-      "label": "Cyber Monday",
-      "url": "/",
-      "blockClass": [
-        "cyber__monday__header"
-    ]
-    }
-  },
-  "link#never__say__never": {
-    "title": "never say never",
-    "props": {
-      "label": "never say never",
-      "url": "/",
-      "blockClass": [
-        "never__say__header"
-    ]
-    }
-  }
+  // "flex-layout.row#header__container__text__desktop": {
+  //   "title": "bloque texto del header",
+  //   "children": [
+  //     "link#block__header__text"
+  //   ]
+  // },
+  // "link#block__header__text":{
+  //   "title": "bloque de texto",
+  //   "children": [
+  //     "link#trends",
+  //     "link#collections",
+  //     "link#sales__month",
+  //     "link#cyber__monday",
+  //     "link#never__say__never"
+  //   ]
+  // },
+  // "link#trends": {
+  //   "title": "Tendencias de ITGlobers",
+  //   "props": {
+  //     "label": "Tendencias de ITGlobers",
+  //     "url": "/",
+  //     "blockClass": [
+  //       "trends__header"
+  //   ]
+  //   }
+  // },
+  // "link#collections": {
+  //   "title": "Coleccion del mes",
+  //   "props": {
+  //     "label": "Colección del mes",
+  //     "url": "/",
+  //     "blockClass": [
+  //       "collection__header"
+  //   ]
+  //   }
+  // },
+  // "link#sales__month": {
+  //   "title": "ofertas de enero",
+  //   "props": {
+  //     "label": "Ofertas de enero",
+  //     "url": "/",
+  //     "blockClass": [
+  //       "sales__month__header"
+  //   ]
+  //   }
+  // },
+  // "link#cyber__monday": {
+  //   "title": "cyber monday",
+  //   "props": {
+  //     "label": "Cyber Monday",
+  //     "url": "/",
+  //     "blockClass": [
+  //       "cyber__monday__header"
+  //   ]
+  //   }
+  // },
+  // "link#never__say__never": {
+  //   "title": "never say never",
+  //   "props": {
+  //     "label": "never say never",
+  //     "url": "/",
+  //     "blockClass": [
+  //       "never__say__header"
+  //   ]
+  //   }
+  // }
 }

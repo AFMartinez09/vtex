@@ -27,14 +27,5 @@
       "color": "#1d2734"
     },
     "children": []
-  },
-  "login":{
-    "props":{
-      "optionsTitle": "login",
-      "iconLabel": "login",
-      "blockClass": [
-        "login__desktop"
-      ]
-    }
   }
 }

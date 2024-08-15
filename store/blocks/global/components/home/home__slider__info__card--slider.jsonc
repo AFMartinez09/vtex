@@ -1,6 +1,6 @@
  {
-  "slider-layout#service": {
-    "title": "Slider home images full",
+  "slider-layout#info__card": {
+    "title": "Slider home todas las cards",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -10,30 +10,31 @@
       "centerMode": "to-the-left",
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
+      "gap": 50,
       "blockClass": [
-        "carousel__service"
+        "info__card--home"
       ]
     },
     "children": [
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home",
-      "flex-layout.row#Others__services__one--slider-home"
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home",
+      "flex-layout.row#info__card--slider-home"
     ]
   },
-  "flex-layout.row#Others__services__one--slider-home":{
+  "flex-layout.row#info__card--slider-home":{
     "title":"Slider row test one",
     "children":[
-      "flex-layout.col#OthersServices_1-home"
+      "flex-layout.col#info__card-home"
     ],
     "props":{
       "blockClass":[
-        "card__container__service--home"
+        "info__card--slider--home"
       ]
     }
   },
@@ -54,7 +55,7 @@
     "props": {}
   },
   "flex-layout.row#button__container--slider": {
-    "title": "button container slider",
+    "title": "boton del contenedor de precio",
     "children": [
       "link#price-btn"
       ],
@@ -62,10 +63,10 @@
         "blockClass": "btn-price"
       }
   },
-  "flex-layout.col#OthersServices_1-home":{
-    "title":"Slider col test one",
+  "flex-layout.col#info__card-home":{
+    "title":"contenedor de la card",
     "children":[
-      "image#OthersServices_1",
+      "image#info__card",
       "flex-layout.row#inside__data__card",
       "flex-layout.row#button__container--slider",
       "flex-layout.row#space"
@@ -79,7 +80,7 @@
     }
   },
   "flex-layout.col#inside__info__card":{
-    "title": "inside info card",
+    "title": "informacion interna card",
     "children":[
       "rich-text#title_service",
       "rich-text#description"
@@ -89,7 +90,7 @@
     }
   },
   "flex-layout.col#inside__picture__card":{
-    "title": "inside picture card",
+    "title": "imagen interna de la card",
     "children":[
       "image#prize"
     ],
@@ -101,7 +102,7 @@
     }
   },
   "rich-text#title_service": {
-    "title": "Title card service ",
+    "title": "titulo de la card",
     "props": {
       "text": "Heading",
       "font": "t-heading-5",
@@ -109,7 +110,7 @@
     }
   },
   "rich-text#description": {
-    "title": "Description service",
+    "title": "descripcion de la card",
     "props": {
       "text": "Builder platform is made by, builder platform is made by...",
       "blockClass": [
@@ -118,15 +119,15 @@
     }
   },
   "image#prize":{
-    "title": "Service first",
+    "title": "imagen de premio",
     "props": {
       "src": "assets/img/ecommercesAward.png",
       "maxHeight": "50px",
       "blockClass": "image__prize__service"
     }
   },
-  "image#OthersServices_1":{
-    "title": "Service first",
+  "image#info__card":{
+    "title": "imagen card",
     "props": {
       "src": "assets/img/OthersServices.png",
       "blockClass": [
@@ -135,6 +136,7 @@
     }
   },
   "link#price-btn": {
+    "title": "ver precio",
     "props": {
       "label": "Ver precio",
       "url": "/",
@@ -148,6 +150,7 @@
     ]
   },
   "icon#arrow-right": {
+    "title": "flecha derecha",
     "props": {
       "id": "nav-thin-caret--right",
       "size": 24,

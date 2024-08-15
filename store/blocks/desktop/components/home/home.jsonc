@@ -2,13 +2,13 @@
   "flex-layout.row#home__screen__desktop":{
     "title": "Desktop row with text",
     "children": [
-      "image#main__banner--home"
+      "image#hero__desktop--home"
     ],
     "props":{
       "href": "#"
     }
   },
-  "image#main__banner--home":{
+  "image#hero__desktop--home":{
     "title": "Main Banner",
     "props":{
       "src": "assets/img/MainBanner.png",
@@ -16,7 +16,7 @@
       "top": "168px",
       
       "blockClass":[
-        "main__banner--home"
+        "hero__desktop"
       ]
     }
   }

@@ -1,18 +1,19 @@
-.productHighlightText--product__highlight__text{
-  color: #FA2080;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16.8px;
-  display: flex;
+.productHighlightText--product__highlight__text {
+  color          : #fa2080;
+  font-weight    : 400;
+  font-size      : 14px;
+  line-height    : 16.8px;
+  display        : flex;
   justify-content: start;
-  margin: 0px 4px 8px 0px;
-  width: 85px;
+  margin         : 0px 4px 8px 0px;
+  width          : 85px;
 }
 
 .productHighlightWrapper--product__highlight__container__wrapper[data-highlight-id="150"] {
   display: none;
 }
-.productHighlightWrapper--product__highlight__container__wrapper{
-  display: flex;
+
+.productHighlightWrapper--product__highlight__container__wrapper {
+  display       : flex;
   flex-direction: row;
 }

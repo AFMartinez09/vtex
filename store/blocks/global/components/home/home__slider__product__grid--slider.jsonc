@@ -1,26 +1,26 @@
 {  
-  "flex-layout.row#products__container__slider": {
+  "flex-layout.row#product__grid__slider": {
     "title": "product shelf container slider",
     "props": {
       "blockClass": "product__container__shelf"
     },
     "children": [
-      "list-context.product-list#list__products"
+      "list-context.product-list#product__grid"
     ]
   },
-  "list-context.product-list#list__products": {
+  "list-context.product-list#product__grid": {
     "title": "Lista de product shelf",
     "blocks": [
-      "product-summary.shelf#products__sliders__home"
+      "product-summary.shelf#product__grid__sliders__home"
     ],
     "children": [
       "slider-layout#home__slider2--products"
     ],
     "props": {
-      "blockClass": "list__product__context"
+      "blockClass": "product__grid"
     }
   },
-  "product-summary.shelf#products__sliders__home": {
+  "product-summary.shelf#product__grid__sliders__home": {
     "title": "Tarjeta de producto",
     "children": [
       "flex-layout.col#items__discount__likes",
@@ -42,12 +42,12 @@
         "phone": 2
       },
       "blockClass": [
-        "home__products__dynamic"
+        "home__product__grid"
       ],
       "infinite": true,
       "showNavigationArrows": "desktopOnly",
       "centerModeSlidesGap": 24,
-      "gap": "24px"
+      "margin": "50px"
     }
   },
   "flex-layout.col#items__discount__likes": {
@@ -138,6 +138,7 @@
     ]
   },
   "product-highlight-wrapper#container":{
+    "title": "product highlight contenedor",
     "props":{
       "blockClass": [
         "product__highlight__container__wrapper"

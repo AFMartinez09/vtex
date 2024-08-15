@@ -4,15 +4,15 @@
       "responsive-layout.desktop#screen__desktop",
       "responsive-layout.phone#screen__phone",
       "responsive-layout.tablet#screen__tablet",
-      // "responsive-layout.mobile#screen__mobile",
-      "rich-text#text__subtitle_products__1",
-      "slider-layout#service",
-      "rich-text#text__subtitle_products__2",
-      "flex-layout.row#products__container__slider",      
-      "rich-text#text__subtitle_products__3",
-      "slider-layout#service",
-      "rich-text#text__subtitle_products__4",
-      "flex-layout.row#products__container__slider"
+      "responsive-layout.mobile#screen__mobile",
+      "rich-text#first__subtitle",
+      "slider-layout#info__card",
+      "rich-text#second__subtitle",
+      "flex-layout.row#product__grid__slider",      
+      "rich-text#third__subtitle",
+      "slider-layout#info__card",
+      "rich-text#fourth__subtitle",
+      "flex-layout.row#product__grid__slider"
     ]
   }
 

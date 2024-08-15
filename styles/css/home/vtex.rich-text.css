@@ -1,12 +1,12 @@
 .paragraph--subtitle_products {
-  position: relative;
-  width: 165px;
-  height: 17px;
-  font-size: 16px;
+  position   : relative;
+  width      : 165px;
+  height     : 17px;
+  font-size  : 16px;
   font-weight: 500;
   line-height: 16.8px;
-  color: #1d2734;
-  left: 72px;
+  color      : #1d2734;
+  left       : 72px;
 }
 
 
@@ -14,93 +14,91 @@
 /* --------------- title service --------------- */
 
 .container--title__service__card {
-  max-width: 247.97px;
-  max-height: 25px;
-  padding: 0px 0px 10px 13.82px;
+  max-width  : 247.97px;
+  max-height : 25px;
+  padding    : 0px 0px 10px 13.82px;
   font-weight: 600;
-  font-size: 16px;
+  font-size  : 16px;
   line-height: 24.88px;
-  color: #1d2734;
+  color      : #1d2734;
 }
 
 .paragraph--title__service__card {
-  max-width: 247.97px;
-  max-height: 25px;
+  max-width  : 247.97px;
+  max-height : 25px;
   font-weight: 600;
-  font-size: 16px;
+  font-size  : 16px;
   line-height: 24.88px;
-  color: #1d2734;
-  margin: 0px;
+  color      : #1d2734;
+  margin     : 0px;
 }
 
 .wrapper--title__service__card {
-  max-width: 247.97px;
-  max-height: 25px;
+  max-width  : 247.97px;
+  max-height : 25px;
   font-weight: 600;
-  font-size: 16px;
+  font-size  : 16px;
   line-height: 24.88px;
-  color: #1d2734;
+  color      : #1d2734;
 }
 
 
 /* --------------- old price --------------- */
 
-.wrapper--old__price__product{
+.wrapper--old__price__product {
   max-width: 100%;
 }
 
-.paragraph--old__price__product{
-  font-weight: 400;
-  font-size: 14px;
-  max-width: 212px;
-  max-height: 16.98px;
-  line-height: 16.8px;
-  color: #1d2734;
-  opacity: 40%;
+.paragraph--old__price__product {
+  font-weight    : 400;
+  font-size      : 14px;
+  max-width      : 212px;
+  max-height     : 16.98px;
+  line-height    : 16.8px;
+  color          : #1d2734;
+  opacity        : 40%;
   text-decoration: line-through;
-  margin: 0px;
+  margin         : 0px;
 }
+
 /* --------------- new price --------------- */
 
-.paragraph--new__price__product{
-  max-width: 212px;
-  max-height: 23px;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 28.8px;
-  color: #1d2734;
-  margin: 0px;
+.paragraph--new__price__product {
+  max-width     : 212px;
+  max-height    : 23px;
+  font-weight   : 600;
+  font-size     : 24px;
+  line-height   : 28.8px;
+  color         : #1d2734;
+  margin        : 0px;
   padding-bottom: 4px;
 }
 
-.wrapper--new__price__product{
+.wrapper--new__price__product {
   max-width: 100%;
 }
 
 /* --------------- description service --------------- */
 
 .paragraph--description__info__card {
-  max-width: 247.97px;
-  max-height: 30px;
-  padding: 0px 0px 0px 13.82px;
-  font-size: 12px;
+  max-width  : 247.97px;
+  max-height : 30px;
+  padding    : 0px 0px 0px 13.82px;
+  font-size  : 12px;
   font-weight: 300;
   line-height: 14.52px;
-  color: #1d2734;
+  color      : #1d2734;
 }
 
 /* --------------- description product --------------- */
-.paragraph--description__product{
-  max-height: 51px;
-  max-width: 212px;
+.paragraph--description__product {
+  max-height : 51px;
+  max-width  : 212px;
   font-weight: 400;
-  font-size: 14px;
+  font-size  : 14px;
   line-height: 16.8px;
-  color: #1d2734;
-  opacity: 60%;
-  margin: 0px;
-  gap: 10px;
+  color      : #1d2734;
+  opacity    : 60%;
+  margin     : 0px;
+  gap        : 10px;
 }
-
-
-

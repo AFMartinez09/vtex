@@ -1,5 +1,6 @@
 {
- "rich-text#text__subtitle_products__1": {
+ "rich-text#first__subtitle": {
+  "title": "primer subtitulo",
   "props":{
     "text": "An amazing product.",
     "font": "t-heading5",
@@ -10,7 +11,8 @@
     "font-weight": "bold"
   }
  },
- "rich-text#text__subtitle_products__2": {
+ "rich-text#second__subtitle": {
+  "title": "segundo subtitulo",
   "props":{
     "text": "An amazing product.",
     "font": "t-heading5",
@@ -21,7 +23,8 @@
     "font-weight": "bold"
   }
  },
- "rich-text#text__subtitle_products__3": {
+ "rich-text#third__subtitle": {
+  "title": "tercer subtitulo",
   "props":{
     "text": "An amazing product.",
     "font": "t-heading5",
@@ -32,7 +35,8 @@
     "font-weight": "bold"
   }
  },
- "rich-text#text__subtitle_products__4": {
+ "rich-text#fourth__subtitle": {
+  "title": "cuarto subtitulo",
   "props":{
     "text": "An amazing product.",
     "font": "t-heading5",

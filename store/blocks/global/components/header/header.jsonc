@@ -30,7 +30,7 @@
   "sticky-layout#desktop": {
     "props": {
       "blockClass": [
-        "categories__header__desktop__"
+        "categories__header__desktop"
       ]
     },
     "children": [
